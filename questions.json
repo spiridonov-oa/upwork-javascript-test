@@ -1,0 +1,19 @@
+[
+  {
+    question: 'Consider the following code snippet: var myJSONObject = {"ircEvent": "PRIVMSG", "method": "newURI", "regex": "^http://.*"}; What is the best way to remove the property regex, so the result would be this code snippet? var myJSONObject = {"ircEvent": "PRIVMSG", "method": "newURI"};',
+    answers: [
+      'delete myJSONObject.regex'
+    ]
+  },
+  {
+    question: 'Consider the following image definition: <img id=”logo” src=”companylogo1.gif” height=”12″ width=”12″ > Which of the following will change the image to companylogo2.gif when the page loads?',
+    answers: [
+      'document.getElementById(‘logo’).src=”companylogo2.gif”'
+    ]
+  },
+]
+
+
+
+Consider the following image definition: <img id=”logo” src=”companylogo1.gif” height=”12″ width=”12″ >
+Which of the following will change the image to companylogo2.gif when the page loads?

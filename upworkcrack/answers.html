@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="entry-content">
+    <div class=question-block>
+        <h2 class="question">1. Which of the following code snippets shows an alert for an empty string?<p></p>
+
+            <p>var a = “”;</p></h2>
+        <ol type="a">
+            <li>If(a){ alert(‘This is empty string’);}</li>
+            <li>If(a == NUL){ alert(‘This is empty string’);}</li>
+            <li>If(!a){ alert(‘This is empty string’);}</li>
+            <li>If(a.empty){ alert(‘This is empty string’);}</li>
+        </ol>
+        <h3 class="answer">If(!a){ alert(‘This is empty string’);}</h3></div>
+    <div class=question-block>
+        <h2 class="question">2. Which of the following objects in JavaScript contains the collection called
+            “plugins”?</h2>
+        <ol type="a">
+            <li>Location</li>
+            <li>Window</li>
+            <li>Screen</li>
+            <li>Navigator</li>
+        </ol>
+        <h3 class="answer">Navigator</h3></div>
+    <div class=question-block>
+        <h2 class="question">3. Consider the following JavaScript function to change the color of the text box named
+            txtName:<p></p>
+
+            <p>function color(col) { document.forms[0].txtName.style.background=col }</p>
+
+            <p>Which of the following will change the color of the text box to green, as long as the user is pressing a
+                key?</p></h2>
+        <ol type="a">
+            <li>input type=”text” onkeydown=”color(‘white’)” onkeyup=”color(‘green’)” name=”txtName”</li>
+            <li>input type=”text” onkeydown=”color(‘green’)” onkeyup=”color(‘white’)” name=”txtName”</li>
+            <li>input type=”text” onkeydown=”color(‘green’)” name=”txtName”</li>
+            <li>input type=”text” onkeydown=”color(‘white’)” name=”txtName”</li>
+            <li>input type=”text” onkeypress=”color(‘green’)” onkeyup=”color(‘white’)” name=”txtName”</li>
+        </ol>
+        <h3 class="answer">input type=”text” onkeypress=”color(‘green’)” onkeyup=”color(‘white’)”
+            name=”txtName”</h3></div>
+    <div class=question-block>
+        <h2 class="question">4. Analyze the following code snippet which uses a Javascript Regular Expression character
+            set. What will be the output of this code?<br>
+            &lt;html&gt;<br>
+            &lt;body&gt;<p></p>
+
+            <p>&lt;script type=”text/javascript”&gt;<br>
+                var str = “Is this enough?”;<br>
+                var patt1 = new RegExp(“[^A-J]”);<br>
+                var result = str.match(patt1);<br>
+                document.write(result);<br>
+                &lt;/script&gt;</p>
+
+            <p>&lt;/body&gt;<br>
+                &lt;/html&gt;</p></h2>
+        <ol type="a">
+            <li>I</li>
+            <li>Is</li>
+            <li>s</li>
+            <li>I,s,</li>
+        </ol>
+        <h3 class="answer">s</h3></div>
+    <div class=question-block>
+        <h2 class="question">5. Which of the following statements regarding JSON is incorrect?</h2>
+        <ol type="a">
+            <li>JSON is a lightweight data-interchange format.</li>
+            <li>JSON is built on two structures: A collection of name/value pairs and an ordered list of values.</li>
+            <li>JSON is a text format that is completely language independent.</li>
+            <li>Comments in JSON are allowed.</li>
+        </ol>
+        <h3 class="answer">Comments in JSON are allowed.</h3></div>
+    <div class=question-block>
+        <h2 class="question">6. What would be the value of ‘ind’ after execution of the following code?<p></p>
+
+            <p>var msg=”Welcome to ExpertRating”<br>
+                var ind= msg.substr(3, 3)</p></h2>
+        <ol type="a">
+            <li>lco</li>
+            <li>com</li>
+            <li>ome</li>
+            <li>Welcome</li>
+        </ol>
+        <h3 class="answer">com</h3></div>
+    <div class=question-block>
+        <h2 class="question">7. Which of the following is not a valid method in generator-iterator objects in
+            JavaScript?</h2>
+        <ol type="a">
+            <li>send()</li>
+            <li>throw()</li>
+            <li>next()</li>
+            <li>stop()</li>
+        </ol>
+        <h3 class="answer">stop()</h3></div>
+    <div class=question-block>
+        <h2 class="question">8. Which of the following correctly sets a class for an element?</h2>
+        <ol type="a">
+            <li>document.getElementById(elementId).className = “Someclass”;</li>
+            <li>document.getElementById(elementId).setAttribute(“className”, “Someclass”);</li>
+            <li>document.getElementById(elementId).class = “Someclass”;</li>
+            <li>document.getElementById(elementId).style = “Someclass”;</li>
+        </ol>
+        <h3 class="answer">document.getElementById(elementId).setAttribute(“className”, “Someclass”);</h3>
+    </div>
+    <div class=question-block>
+        <h2 class="question">9. Which of the following choices will change the source of the image to “image2.gif” when
+            a user clicks on the image?</h2>
+        <ol type="a">
+            <li>img id=”imageID” src=”image1.gif” width=”50″ height=”60″ onmousedown=”changeimg(image1.gif)”
+                onmouseup=”changeimg(image2.gif)”
+            </li>
+            <li>img id=”imageID” src=”image1.gif” width=”50″ height=”60″ onmouseclick=”changeimg(image2.gif)”
+                onmouseup=”changeimg(image1.gif)”
+            </li>
+            <li>img id=”imageID” src=”image2.gif” width=”50″ height=”60″ onmousedown=”changeimg(image1.gif)”
+                onmouseup=”changeimg(image2.gif)”
+            </li>
+            <li>img id=”imageID” src=”image2.gif” width=”50″ height=”60″ onmousedown=”changeimg(image2.gif)”
+                onmouseup=”changeimg(image1.gif)”
+            </li>
+            <li>img id=”imageID” src=”image1.gif” width=”50″ height=”60″ onmousedown=”changeimg(‘image2.gif’)”
+                onmouseup=”changeimg(‘image1.gif’)”
+            </li>
+        </ol>
+        <h3 class="answer">img id=”imageID” src=”image1.gif” width=”50″ height=”60″
+            onmousedown=”changeimg(image1.gif)” onmouseup=”changeimg(image2.gif)”</h3></div>
+    <div class=question-block>
+        <h2 class="question">10. Consider the following image definition:<br>
+            &lt;img id=”logo” src=”companylogo1.gif” height=”12″ width=”12″ &gt;<br>
+            Which of the following will change the image to companylogo2.gif when the page loads?</h2>
+        <ol type="a">
+            <li> logo.source=”companylogo2.gif”</li>
+            <li> logo.source=”companylogo1.gif”</li>
+            <li>document.getElementById(‘logo’).src=”companylogo1.gif”</li>
+            <li>document.getElementById(‘logo’).src=”companylogo2.gif”</li>
+        </ol>
+        <h3 class="answer">document.getElementById(‘logo’).src=”companylogo2.gif”</h3></div>
+    <div class=question-block>
+        <h2 class="question">11. Which of the following shortcuts can be used for writing multiple document.write
+            statements?</h2>
+        <ol type="a">
+            <li>for(document){}</li>
+            <li>with(document) {}</li>
+            <li>withThis(document){}</li>
+            <li>None of these</li>
+        </ol>
+        <h3 class="answer">with(document) {}</h3></div>
+    <div class=question-block>
+        <h2 class="question">12. How can created cookies be deleted using JavaScript?</h2>
+        <ol type="a">
+            <li>They can’t be deleted. They are valid until they expire.</li>
+            <li>Overwrite with an expiry date in the past</li>
+            <li>Use escape() on the value of the path attribute</li>
+            <li>Use unescape() on the value of the path attribute</li>
+            <li>The cookie file will have to be removed from the client machine.</li>
+            <li>Wait till the expiry date is reached</li>
+        </ol>
+        <h3 class="answer">Overwrite with an expiry date in the past</h3></div>
+    <div class=question-block>
+        <h2 class="question">13. Which of the following is not a valid method for looping an array?</h2>
+        <ol type="a">
+            <li>var a= [1,2];<br>
+                for (var i = 0; i &lt; a.length; i++) {<br>
+                alert(a[i]);<br>
+                }
+            </li>
+            <li>var a= [1,2];<br>
+                a.forEach( function(item) {<br>
+                alert(item);<br>
+                })
+            </li>
+            <li>var a= [1,2];<br>
+                a.map( function(item) {<br>
+                alert(item);<br>
+                })
+            </li>
+            <li>var a= [1,2];<br>
+                a.loop( function(item) {<br>
+                alert(item);<br>
+                })
+            </li>
+        </ol>
+        <h3 class="answer">var a= [1,2];<br>
+            a.loop( function(item) {<br>
+            alert(item);<br>
+            })</h3></div>
+    <div class=question-block>
+        <h2 class="question">14. Consider the following JavaScript alert:<br>
+            &lt;script type=”text/JavaScript”&gt;<br>
+            function message() {<br>
+            alert(“Welcome to ExpertRating!!!”)<br>
+            }<br>
+            &lt;/script&gt;<p></p>
+
+            <p>Which of the following will run the function when a user opens the page?</p></h2>
+        <ol type="a">
+            <li>body onload=”message()”</li>
+            <li>body onunload=”message()”</li>
+            <li>body onsubmit=”message()”</li>
+            <li>body onreset=”message()”</li>
+        </ol>
+        <h3 class="answer">body onload=”message()</h3></div>
+    <div class=question-block>
+        <h2 class="question">15. What will the following code snippet do?<p></p>
+
+            <p>document.alinkColor=”green”</p></h2>
+        <ol type="a">
+            <li>It makes the background color of the document green.</li>
+            <li>It makes the color of the active links green.</li>
+            <li>It makes the color of the visited links green.</li>
+            <li>It makes the color of all links green.</li>
+            <li>None of these.</li>
+        </ol>
+        <h3 class="answer">It makes the color of the active links green</h3></div>
+    <div class=question-block>
+        <h2 class="question">16. Which of the following JavaScript Regular Expression modifiers finds one or more
+            occurrences of a specific character in a string?</h2>
+        <ol type="a">
+            <li>?</li>
+            <li>*</li>
+            <li>+</li>
+            <li>#</li>
+        </ol>
+        <h3 class="answer">+</h3></div>
+    <div class=question-block>
+        <h2 class="question">17. Which of the following choices will remove a selection option from the code below?
+            <p></p>
+
+            <p>&lt;button id”newbtn” onclick=”g();”&gt;Remove&lt;/button&gt;<br>
+                &lt;select name=”selectBox” id=”selectBox”&gt;<br>
+                &lt;option value=”option1″&gt;option1&lt;/option&gt;<br>
+                &lt;option value=”option2″&gt;option2&lt;/option&gt;<br>
+                &lt;option value=”option3″&gt;option3&lt;/option&gt;<br>
+                &lt;option value=”option4″&gt;option4&lt;/option&gt;<br>
+                &lt;/select&gt;</p></h2>
+        <ol type="a">
+            <li>&lt;script&gt;<br>
+                function g(){<br>
+                var index = 1;<br>
+                var d = document.getElementById(“selectBox”);<br>
+                var d_nested = d.childNodes[index];<br>
+                var throwawayNode = d.deleteChild(d_nested);<br>
+                }<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                function g(){<br>
+                var index = 1;<br>
+                var d = document.getElementById(“selectBox”);<br>
+                var d_nested = d.childNodes[index];<br>
+                var throwawayNode = d.clearChild(d_nested);<br>
+                }<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                function g(){<br>
+                var index = 1;<br>
+                var d = document.getElementById(“selectBox”);<br>
+                var d_nested = d.childNodes[index];<br>
+                var throwawayNode = d.emptyChild(d_nested);<br>
+                }<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                function g(){<br>
+                var index = 1;<br>
+                var d = document.getElementById(“selectBox”);<br>
+                var d_nested = d.childNodes[index];<br>
+                var throwawayNode = d.removeChild(d_nested);<br>
+                }<br>
+                &lt;/script&gt;</li>
+        </ol>
+        <h3 class="answer">&lt;script&gt;<br>
+            function g(){<br>
+            var index = 1;<br>
+            var d = document.getElementById(“selectBox”);<br>
+            var d_nested = d.childNodes[index];<br>
+            var throwawayNode = d.removeChild(d_nested);<br>
+            }<br>
+            &lt;/script&gt;</h3></div>
+    <div class=question-block>
+        <h2 class="question">18. Which of the following is not a JavaScript string method?</h2>
+        <ol type="a">
+            <li>ep</li>
+            <li>split</li>
+            <li>subst</li>
+            <li>slice</li>
+        </ol>
+        <h3 class="answer">ep</h3></div>
+    <div class=question-block>
+        <h2 class="question">19. What will be output of the following code?<p></p>
+
+            <p>function testGenerator() {<br>
+                yield “first”;<br>
+                document.write(“step1”);</p>
+
+            <p>yield “second”;<br>
+                document.write(“step2”);</p>
+
+            <p>yield “third”;<br>
+                document.write(“step3”);<br>
+                }</p>
+
+            <p>var g = testGenerator();<br>
+                document.write(g.next());<br>
+                document.write(g.next());</p></h2>
+        <ol type="a">
+            <li>firststep1second</li>
+            <li>step1step2</li>
+            <li>step1</li>
+            <li>step1step2step3</li>
+        </ol>
+        <h3 class="answer">firststep1second</h3></div>
+    <div class=question-block>
+        <h2 class="question">20. Which of the following code snippets changes an image on the page?</h2>
+        <ol type="a">
+            <li>var img = document.getElementById(“imageId”);<br>
+                img.src = “newImage.gif”;
+            </li>
+            <li>var img = document.getElementById(“imageId”);<br>
+                img.style.src = “newImage.gif”;
+            </li>
+            <li>var img = document.getElementById(“imageId”);<br>
+                img.src.value = “newImage.gif”;
+            </li>
+            <li>var img = document.getElementById(“imageId”);<br>
+                img = “newImage.gif”;
+            </li>
+        </ol>
+        <h3 class="answer">Answers. a.var img = document.getElementById(“imageId”);<br>
+            img.src = “newImage.gif”;</h3></div>
+    <div class=question-block>
+        <h2 class="question">21. An image tag is defined as follows:<br>
+            &lt;img id=”ERImage” width=”100″ height=”100″ onmouseover=”ImageChange()” src=”Image1.jpg”&gt;<p></p>
+
+            <p>The purpose of the ImageChange() function is to change the image source to Image2.jpg. Which of the
+                following should the ImageChange() function look like?</p></h2>
+        <ol type="a">
+            <li>document.getElementById(‘ERImage’).src=”Image1.jpg”</li>
+            <li>document.getElementById(‘ERImage’).src=”Image2.jpg”</li>
+            <li>document.getElementById(‘ERImage’).style.src=”Image1.jpg”</li>
+            <li>document.getElementById(‘ERImage’).style.src=”Image2.jpg”</li>
+        </ol>
+        <h3 class="answer">document.getElementById(‘ERImage’).src=”Image2.jpg”</h3></div>
+    <div class=question-block>
+        <h2 class="question">22. When setting cookies with JavaScript, what will happen to the cookies.txt data if the
+            file exceeds the maximum size?</h2>
+        <ol type="a">
+            <li>The script automatically generates a run-time error.</li>
+            <li>The script automatically generates a load-time error.</li>
+            <li>All processes using document.cookie are ignored.</li>
+            <li>The file is truncated to the maximum length.</li>
+        </ol>
+        <h3 class="answer">The file is truncated to the maximum length.</h3></div>
+    <div class=question-block>
+        <h2 class="question">23. Consider the following code snippet:<p></p>
+
+            <p>var myJSONObject =<br>
+                {“ircEvent”: “PRIVMSG”, “method”: “newURI”, “regex”: “^http://.*”};</p>
+
+            <p>What is the best way to remove the property ‘regex’, so the result would be this code snippet?</p>
+
+            <p>myJSONObject ==<br>
+                {“ircEvent”: “PRIVMSG”, “method”: “newURI”};</p></h2>
+        <ol type="a">
+            <li>myJSONObject.regex.delete;</li>
+            <li>myJSONObject.regex.remove;</li>
+            <li>delete myJSONObject.regex;</li>
+            <li>remove myJSONObject.regex;</li>
+        </ol>
+        <h3 class="answer">delete myJSONObject.regex;</h3></div>
+    <div class=question-block>
+        <h2 class="question">24. Which of the following determines whether cookies are enabled in a browser or not?</h2>
+        <ol type="a">
+            <li>(navigator.Cookie)? true : false</li>
+            <li>(application.cookieEnabled)? true : false</li>
+            <li>(navigator.cookieEnabled)? true : false</li>
+            <li>(application.cookie)? true : false</li>
+        </ol>
+        <h3 class="answer">(navigator.cookieEnabled)? true : false</h3></div>
+    <div class=question-block>
+        <h2 class="question">25. var profits=2489.8237<p></p>
+
+            <p>Which of the following code(s) produces the following output?</p>
+
+            <p>output : 2489.824</p></h2>
+        <ol type="a">
+            <li>profits.toFixed(4)</li>
+            <li>profits.toFixed(3)</li>
+            <li>profits.formatDollar(3)</li>
+            <li>profits.nuberFormat(3)</li>
+        </ol>
+        <h3 class="answer">profits.toFixed(3)</h3></div>
+    <div class=question-block>
+        <h2 class="question">26. Consider the following JavaScript validation function:<br>
+            function ValidateField()<br>
+            {<br>
+            if(document.forms[0].txtId.value ==””)<br>
+            {return false;}<p></p>
+
+            <p>return true;<br>
+                }</p>
+
+            <p>Which of the following options will call the function as soon as the user leaves the field?</p></h2>
+        <ol type="a">
+            <li>input name=txtId type=”text” onreset=”return ValidateField()”</li>
+            <li>input name=txtId type=”text” onfocus=”return ValidateField()”</li>
+            <li>input name=txtId type=”text” onsubmit=”return ValidateField()”</li>
+            <li>input name=txtId type=”text” onblur=”return ValidateField()”</li>
+        </ol>
+        <h3 class="answer">input name=txtId type=”text” onblur=”return ValidateField()”</h3></div>
+    <div class=question-block>
+        <h2 class="question">27. How can the operating system of the client machine be detected?</h2>
+        <ol type="a">
+            <li>It is not possible using JavaScript.</li>
+            <li>Using the navigator object</li>
+            <li>Using the window object</li>
+            <li>Using the document object</li>
+            <li>None of these.</li>
+        </ol>
+        <h3 class="answer">Using the navigator object</h3></div>
+    <div class=question-block>
+        <h2 class="question">28. Which of the following modifiers must be set if the JavaScript lastIndex object
+            property was used during pattern matching?</h2>
+        <ol type="a">
+            <li>i</li>
+            <li>m</li>
+            <li>g</li>
+            <li>s</li>
+        </ol>
+        <h3 class="answer">g</h3></div>
+    <div class=question-block>
+        <h2 class="question">29. Which of the following code snippets shows the correct way to detect an array that does
+            not contain a specific value?</h2>
+        <ol type="a">
+            <li>&lt;script&gt;<br>
+                var aVar = [“Banana”, “Orange”, “Apple”, “Mango”];<br>
+                var bVar = fruits.indexOf(“Lichi”)<br>
+                if(bVar == 1){<br>
+                //requirement<br>
+                }<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                var aVar = [“Banana”, “Orange”, “Apple”, “Mango”];<br>
+                var bVar = fruits.valueOf(“Lichi”)<br>
+                if(bVar == -1){<br>
+                //requirement<br>
+                }<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                var aVar = [“Banana”, “Orange”, “Apple”, “Mango”];<br>
+                var bVar = fruits.indexOf(“Lichi”)<br>
+                if(bVar == -1){<br>
+                //requirement<br>
+                }<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                var aVar = [“Banana”, “Orange”, “Apple”, “Mango”];<br>
+                var bVar = fruits.valueOf(“Lichi”)<br>
+                if(bVar == 1){<br>
+                //requirement<br>
+                }<br>
+                &lt;/script&gt;</li>
+        </ol>
+        <h3 class="answer">&lt;script&gt;<br>
+            var aVar = [“Banana”, “Orange”, “Apple”, “Mango”];<br>
+            var bVar = fruits.indexOf(“Lichi”)<br>
+            if(bVar == -1){<br>
+            //requirement<br>
+            }<br>
+            &lt;/script&gt;</h3></div>
+    <div class=question-block>
+        <h2 class="question">30. Which of the following built-in functions is used to access form elements using their
+            IDs?</h2>
+        <ol type="a">
+            <li>getItem(id)</li>
+            <li>getFormElement(id)</li>
+            <li>getElementById(id)</li>
+            <li>All of these</li>
+        </ol>
+        <h3 class="answer">getElementById(id)</h3></div>
+    <div class=question-block>
+        <h2 class="question">31. Which of the following options can be used for adding direct support for XML to
+            JavaScript?</h2>
+        <ol type="a">
+            <li>E4X</li>
+            <li>Regex</li>
+            <li>Generators and Iterators</li>
+            <li>let</li>
+        </ol>
+        <h3 class="answer">E4X</h3></div>
+    <div class=question-block>
+        <h2 class="question">32. Which of the following code snippets will toggle a div element’s background color?
+            <p></p>
+
+            <p>&lt;button id=”toggle”&gt;Toggle&lt;/button&gt;<br>
+                &lt;div id=”terd”&gt;Change Background Color.&lt;/div&gt;</p></h2>
+        <ol type="a">
+            <li>&lt;script&gt;<br>
+                var button = document.getElementById(‘toggle’);<br>
+                button.click = function() {<br>
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue’;<br>
+                };<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                var button = document.getElementById(‘toggle’);<br>
+                button.ready = function() {<br>
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue’;<br>
+                };<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                var button = document.getElementById(‘toggle’);<br>
+                button.focus = function() {<br>
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue’;<br>
+                };<br>
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt;<br>
+                var button = document.getElementById(‘toggle’);<br>
+                button.onclick = function() {<br>
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue’;<br>
+                };<br>
+                &lt;/script&gt;</li>
+        </ol>
+        <h3 class="answer">&lt;script&gt;<br>
+            var button = document.getElementById(‘toggle’);<br>
+            button.onclick = function() {<br>
+            terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue’;<br>
+            };<br>
+            &lt;/script&gt;</h3></div>
+    <div class=question-block>
+        <h2 class="question">33. Which of the following will determine if the user’s browser is named “Netscape”?</h2>
+        <ol type="a">
+            <li>if(appName==”Netscape”){}</li>
+            <li>if(document.appName==”Netscape”){}</li>
+            <li>if(navigator==”Netscape”){}</li>
+            <li>if(browser==”Netscape”){}</li>
+            <li>None of these</li>
+        </ol>
+        <h3 class="answer">None of these</h3></div>
+    <div class=question-block>
+        <h2 class="question">34. What would be the default setting for the expires attribute of the document.cookie
+            property?</h2>
+        <ol type="a">
+            <li>The duration of the browser session</li>
+            <li>The duration the current document stays loaded</li>
+            <li>Twenty-four hours from the time the cookie is set</li>
+            <li>There is no default setting</li>
+            <li>The duration for which the machine is on</li>
+        </ol>
+        <h3 class="answer">The duration of the browser session</h3></div>
+    <div class=question-block>
+        <h2 class="question">35. Which of the following will check whether the variable vRast exists or not?</h2>
+        <ol type="a">
+            <li>if (typeof vRast=”undefined”) {}</li>
+            <li>if (typeof vRast ==”undefined”) {}</li>
+            <li>if (vRast.defined =true) {}</li>
+            <li>if (vRast.defined ==true) {}</li>
+        </ol>
+        <h3 class="answer">if (typeof vRast ==”undefined”) {}</h3></div>
+    <div class=question-block>
+        <h2 class="question">36. Which of the following will change the color of a paragraph’s text to blue when a user
+            hovers over it, and reset it back to black when the user hovers out?</h2>
+        <ol type="a">
+            <li>&lt;p onmouseover=”style.color=’black'” onmouseout=”style.color=’blue'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+            <li>&lt;p onmouseover=”style.color=’blue'” onmouseout=”style.color=’black'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+            <li>&lt;p onmouseout=”style.color=’blue'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+            <li>&lt;p onmouseover=”style.color=’blue'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+            <li>&lt;p onmousein=”style.color=’blue'” onmouseout=”style.color=’black'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+        </ol>
+        <h3 class="answer">&lt;p onmouseover=”style.color=’blue'” onmouseout=”style.color=’black'”&gt; The text
+            of the paragraph..&lt;/p&gt;</h3></div>
+    <div class=question-block>
+        <h2 class="question">37. How can global variables be declared in JavaScript?</h2>
+        <ol type="a">
+            <li>All variables are local in JavaScript.</li>
+            <li>Declare the variable between the ‘script’ tags, and outside a function to make the variable global</li>
+            <li>Precede the variable name with the constant global</li>
+            <li>Declare the variable in an external file</li>
+        </ol>
+        <h3 class="answer">Declare the variable between the ‘script’ tags, and outside a function to make the
+            variable global</h3></div>
+</div>
+
+<script src="run.js"></script>
+</body>
+</html>

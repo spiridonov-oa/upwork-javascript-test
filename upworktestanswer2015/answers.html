@@ -1,0 +1,3195 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>outsourcingincome</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+</head>
+<body>
+
+
+<div class="lyout">
+    <div class="question-block">
+        <h3 class="question">
+             Which of the following is true about setTimeOut()?</h3>
+
+
+        <p class="answer">The statement(s) it executes run(s) only once.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can the operating system of the client machine be detected?
+        </h3>
+
+
+        <p class="answer">Using the navigator object</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following prints "AbBc"?</h3>
+
+
+        <p class="answer">var b = 'a';
+            var result = b.toUpperCase() + 'b' + 'b'.toUpperCase() +'C'['toLowerCase']();
+            alert(result);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following descriptions is true for the code below?
+
+            var object0 = {};
+            Object.defineProperty(object0, "prop0", { value : 1, enumerable:false, configurable : true });
+            Object.defineProperty(object0, "prop1", { value : 2, enumerable:true, configurable : false });
+            Object.defineProperty(object0, "prop2", { value : 3 });
+            object0.prop3 = 4;</h3>
+
+
+        <p class="answer">Object 'object0' contains 4 properties. Property 'prop1' and property 'prop3' are available
+            in the for...in loop. Property 'prop0' and property 'prop3' are available to delete.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Performance-wise, which is the fastest way of repeating a string
+            in JavaScript?</h3>
+
+
+        <p class="answer">String.prototype.repeat = function(count) {
+            if (count &lt; 1) return '';
+            var result = '', pattern = this.valueOf();
+            while (count &gt; 0) {
+            if (count &amp; 1) result += pattern;
+            count &gt;&gt;= 1, pattern += pattern;
+            }
+            return result;
+            };</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the following variable declarations:
+
+            var a="adam"
+            var b="eve"
+
+            Which of the following would return the sentence "adam and eve"?</h3>
+
+
+        <p class="answer">a.concat(" and ", b)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets will correctly split "str"?
+        </h3>
+
+
+        <p class="answer">&lt;script&gt;
+            var str = 'something -- something_else';
+            var substrn = str.split(' -- ');
+            &lt;/script&gt;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which object can be used to ascertain the protocol of the
+            current URL?</h3>
+
+
+        <p class="answer">location</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following best describes a "for" loop?</h3>
+
+
+        <p class="answer">"for" loop consists of three optional expressions, enclosed in parentheses and separated by
+            semicolons, followed by a statement executed in the loop.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following descriptions best describes the code
+            below?
+
+            &lt;script&gt;
+            var variable1 = { fastFood: "spaghetti", length: 10 };
+            Object.freeze(variable1);
+            variable1.price = 50;
+            delete variable1.length;
+            &lt;/script&gt;</h3>
+
+
+        <p class="answer">Object is frozen, a property named "price" is not added in the variable1 object, a property
+            named "length" is not deleted from this object. At the end of the code, object "variable1" contains 2
+            properties.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is not a valid HTML event?</h3>
+
+
+        <p class="answer">onblink</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Analyze the following code snippet which uses a Javascript
+            Regular Expression character set. What will be the output of this code?
+
+            &lt;html&gt;
+            &lt;body&gt;
+
+            &lt;script type="text/javascript"&gt;
+            var str = "Is this enough?";
+            var patt1 = new RegExp("[^A-J]");
+            var result = str.match(patt1);
+            document.write(result);
+            &lt;/script&gt;
+
+            &lt;/body&gt;
+            &lt;/html</h3>
+
+
+        <p class="answer">s</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the following image definition:
+            &lt;img id="logo" src="companylogo1.gif" height="12" width="12" &gt;
+            Which of the following will change the image to companylogo2.gif when the page loads?</h3>
+
+
+        <p class="answer"> document.getElementById('logo').src="companylogo2.gif"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the final value of the variable bar in the following
+            code?
+
+            var foo = 9;
+            bar = 5;
+            (function() {
+            var foo = 2;
+            bar= 1;
+            }())
+            bar = bar + foo;</h3>
+
+
+        <p class="answer">10</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following are JavaScript unit testing tools?</h3>
+
+
+        <p class="answer">Buster.js, YUI Yeti, Jasmine</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following can be used for disabling the right click
+            event in Internet Explorer?</h3>
+
+
+        <p class="answer">event.button == 2</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             An image tag is defined as follows:
+            &lt;img id="ERImage" width="100" height="100" onmouseover="ImageChange()" src="Image1.jpg"&gt;
+            The purpose of the ImageChange() function is to change the image source to Image2.jpg. Which of the
+            following should the ImageChange() function look like?</h3>
+
+
+        <p class="answer">document.getElementById('ERImage').src="Image2.jpg"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the following JavaScript alert:
+            &lt;script type="text/JavaScript"&gt;
+            function message() {
+            alert("Welcome to ExpertRating!!!")
+            }
+            &lt;/script&gt;
+            Which of the following will run the function when a user opens the page?</h3>
+
+
+        <p class="answer">body onload="message()"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets will correctly get the
+            length of an object?</h3>
+
+
+        <p class="answer">&lt;script&gt;
+            var newObj = new Object();
+            newObj["firstname"] = "FirstName";
+            newObj["lastname"] = "LastName";
+            newObj["age"] = 21;
+            Object.size = function(obj) {
+            var size = 0, key;
+            for (key in obj) {
+            if (obj.hasOwnProperty(key)) size++;
+            }
+            return size;
+            };
+
+            var size = Object.size(newObj);
+            &lt;/script&gt;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following Array methods in JavaScript runs a
+            function on every item in the Array and collects the result from previous calls, but in reverse?</h3>
+
+
+        <p class="answer">reduceRight()</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             In an HTML page, the form tag is defined as follows:
+            &lt;form onsubmit="return Validate()" action="http://www.mysite.com/"&gt;
+            The validate() function is intended to prevent the form from being submitted if the name field in the form
+            is empty. What should the validate() function look like?</h3>
+
+
+        <p class="answer">&lt;script type="text/javascript"&gt;
+            function Validate() {
+            if(document.forms[0].name.value == "")
+            return false;
+            else
+            return true;
+            }
+            &lt;/script&gt;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets changes an image on the
+            page?</h3>
+
+
+        <p class="answer">var img = document.getElementById("imageId");
+            img.src = "newImage.gif";</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following results is returned by the JavaScript
+            operator "typeof" for the keyword "null"?</h3>
+
+
+        <p class="answer">object</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will be the final value of the variable "apt"?
+
+            var apt=2;
+            apt=apt&lt;&lt;2;</h3>
+
+
+        <p class="answer">8</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can a JavaScript object be printed?</h3>
+
+
+        <p class="answer">console.log(obj)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is the correct syntax for using the
+            JavaScript exec() object method?</h3>
+
+
+        <p class="answer">RegExpObject.exec(string)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Having an array object var arr = new Array(), what is the best
+            way to add a new item to the end of an array?</h3>
+
+
+        <p class="answer">arr.push("New Item")</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the following JavaScript validation function:
+            function ValidateField()
+            {
+            if(document.forms[0].txtId.value =="")
+            {return false;}
+
+            return true;
+            }
+            Which of the following options will call the function as soon as the user leaves the field?</h3>
+
+
+        <p class="answer">input name=txtId type="text" onblur="return ValidateField()"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of following uses the "with" statement in JavaScript
+            correctly?</h3>
+
+
+        <p class="answer">with (document.getElementById("blah").style) {
+            background = "black";
+            color = "blue";
+            border = "1px solid green";
+            }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the following JavaScript validation function:
+
+            &lt;script type="text/JavaScript"&gt;
+            function ValidateField()
+            {
+            if(document.forms[0].txtId.value =="")
+            {return false;}
+
+            return true;
+            }
+            &lt;/script&gt;
+
+            Which of the following options will call the function as soon as the user leaves the field?</h3>
+
+
+        <p class="answer">input name=txtId type="text" onblur="return ValidateField()"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following modifiers must be set if the JavaScript
+            lastIndex object property was used during pattern matching?</h3>
+
+
+        <p class="answer">g</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the following image definition:
+
+            &lt;img id="logo" src="companylogo1.gif" height="12" width="12" &gt;
+
+            Which of the following will change the image to "companylogo2.gif" when the page loads?</h3>
+
+
+        <p class="answer"> document.getElementById('logo').src="companylogo2.gif"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following will check whether the variable vRast
+            exists or not?</h3>
+
+
+        <p class="answer">if (typeof vRast =="undefined") {}</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What would be the use of the following code?
+
+            function validate(field) {
+            var valid=''ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'';
+            var ok=''yes'';
+            var temp;
+
+            for(var i=0;i&lt;field.value.length;i++) {
+            temp='''' + field.value.substring(i,i+1)
+
+            if(valid.indexOf(temp)==''-1'') {
+            ok=''no'';
+            }
+            }
+
+            if(ok==''no'') {
+            alert(''error'');
+            field.focus();
+            }
+            }</h3>
+
+
+        <p class="answer">It will force a user to enter only English alphabet character values.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             An image tag is defined as follows:
+
+            &lt;img id="ERImage" width="100" height="100" onmouseover="ImageChange()" src="Image1.jpg"&gt;
+
+            The purpose of the ImageChange() function is to change the image source to "Image2.jpg". Which of the
+            following should the ImageChange() function look like?</h3>
+
+
+        <p class="answer">document.getElementById('ERImage').src="Image2.jpg"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following choices will detect if "variableName"
+            declares a function?
+
+            &lt;script&gt;
+            var variableName= function(){};
+            &lt;/script&gt;</h3>
+
+
+        <p class="answer">typeof variableName;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following choices will change the source of the
+            image to "image2.gif" when a user clicks on the image?</h3>
+
+
+        <p class="answer">img id="imageID" src="image1.gif" width="50" height="60" onmousedown="changeimg(image1.gif)"
+            onmouseup="changeimg(image2.gif)"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can created cookies be deleted using JavaScript?</h3>
+
+
+        <p class="answer">Overwrite with an expiry date in the past</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What would be the value of 'ind' after execution of the
+            following code?
+
+            var msg="Welcome to ExpertRating"
+            var ind= msg.substr(3, 3)</h3>
+
+
+        <p class="answer">com</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Are the two statements below interchangeable?
+
+            object.property
+            object[''property'']</h3>
+
+
+        <p class="answer">Yes</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is not a valid method in
+            generator-iterator objects in JavaScript?</h3>
+
+
+        <p class="answer">stop()</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets will return all HTTP
+            headers?</h3>
+
+
+        <p class="answer">var req = new XMLHttpRequest();
+            req.open('GET', document.location, false);
+            req.send(null);
+            var headers = req.getAllResponseHeaders().toLowerCase();
+            alert(headers);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the following JavaScript alert:
+
+            &lt;script type="text/JavaScript"&gt;
+            function message() {
+            alert("Welcome to ExpertRating!!!")
+            }
+            &lt;/script&gt;
+
+            Which of the following will run the function when a user opens the page?</h3>
+
+
+        <p class="answer">body onload="message()"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is the most secure and efficient way of
+            declaring an array?</h3>
+
+
+        <p class="answer">var a = []</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following Regular Expression pattern flags is not
+            valid?</h3>
+
+
+        <p class="answer">p</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following built-in functions is used to access form
+            elements using their IDs?</h3>
+
+
+        <p class="answer">getElementById(id)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following statements is correct?</h3>
+
+
+        <p class="answer">Undefined object properties can be checked using the following code:
+            if (typeof something === "undefined")
+            alert("something is undefined");</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following correctly uses a timer with a function
+            named rearrange()?</h3>
+
+
+        <p class="answer">tmr=setTimeout("rearrange ()",1)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following can be used to escape the ' character?
+        </h3>
+
+
+        <p class="answer">\</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which event can be used to validate the value in a field as soon
+            as the user moves out of the field by pressing the tab key?</h3>
+
+
+        <p class="answer">onblur</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             When setting cookies with JavaScript, what will happen to the
+            cookies.txt data if the file exceeds the maximum size?</h3>
+
+
+        <p class="answer">The file is truncated to the maximum length.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following are not global methods and properties in
+            E4X?</h3>
+
+
+        <p class="answer">setName() and setNamespace()</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following will change the color of a paragraph's
+            text to blue when a user hovers over it, and reset it back to black when the user hovers out?</h3>
+
+
+        <p class="answer">&lt;p onmouseover="style.color='blue'" onmouseout="style.color='black'"&gt; The text of the
+            paragraph..&lt;/p&gt;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the purpose of while(1) in the following JSON response?
+
+            while(1);[['u',[['smsSentFlag','false'],['hideInvitations','false'],['remindOnRespondedEventsOnly','true'],['hideInvitations_remindOnRespondedEventsOnly','false_true'],['Calendar
+            ID stripped for privacy','false'],['smsVerifiedFlag','true']]]]</h3>
+
+
+        <p class="answer">It makes it difficult for a third-party to insert the JSON response into an HTML document
+            with a &lt;script&gt; tag.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider the three variables:
+
+            someText = 'JavaScript1.2';
+            pattern = /(\w+)(\d)\.(\d)/i;
+            outCome = pattern.exec(someText);
+
+            What does outCome[0] contain?</h3>
+
+
+        <p class="answer">JavaScript1.2</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following choices will turn a string into a
+            JavaScript function call (case with objects) of the following code snippet?
+
+            &lt;script&gt;
+            window.foo = {
+            bar: {
+            baz: function() {
+            alert('Hello!');
+            }
+            }
+            };
+            &lt;/script&gt;</h3>
+
+
+        <p class="answer">window['foo']['bar']['baz']();</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following determines whether cookies are enabled in
+            a browser or not?</h3>
+
+
+        <p class="answer">(navigator.cookieEnabled)? true : false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following options can be used for adding direct
+            support for XML to JavaScript?</h3>
+
+
+        <p class="answer">E4X</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following will detect which DOM element has the
+            focus?</h3>
+
+
+        <p class="answer">document.activeElement</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following will randomly choose an element from an
+            array named myStuff, given that the number of elements changes dynamically?</h3>
+
+
+        <p class="answer">randomElement = myStuff[Math.floor(Math.random() * myStuff.length)];</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can global variables be declared in JavaScript?</h3>
+
+
+        <p class="answer">Declare the variable between the 'script' tags, and outside a function to make the variable
+            global</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following objects in JavaScript contains the
+            collection called "plugins"?</h3>
+
+
+        <p class="answer">Navigator</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will be output of the following code?
+
+            function testGenerator() {
+            yield "first";
+            document.write("step1");
+
+            yield "second";
+            document.write("step2");
+
+            yield "third";
+            document.write("step3");
+            }
+
+            var g = testGenerator();
+            document.write(g.next());
+            document.write(g.next());</h3>
+
+
+        <p class="answer">firststep1second</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following methods will copy data to the Clipboard?
+        </h3>
+
+
+        <p class="answer">execCommand('Copy')</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets trims whitespace from the
+            beginning and end of the given string str?</h3>
+
+
+        <p class="answer">str.replace(/^\s+|\s+$/g, '');</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the difference between call() and apply()?</h3>
+
+
+        <p class="answer">The call() function accepts an argument list of a function, while the apply() function
+            accepts a single array of arguments.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets is more efficient, and why?
+
+            &lt;script language="JavaScript"&gt;
+            for(i=0;i&lt;document.images.length;i++)
+            document.images[i].src="blank.gif";
+            &lt;/script&gt;
+
+            &lt;script language="JavaScript"&gt;
+            var theimages = document.images;
+            for(i=0;i&lt;theimages.length;i++)
+            theimages[i].src="blank.gif"
+            &lt;/script&gt;</h3>
+
+
+        <p class="answer">The second code is more efficient as it employs object caching.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the meaning of obfuscation in JavaScript?</h3>
+
+
+        <p class="answer">Making code unreadable using advanced algorithms.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following JavaScript Regular Expression modifiers
+            finds one or more occurrences of a specific character in a string?</h3>
+
+
+        <p class="answer">+</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is not a valid JavaScript operator?</h3>
+
+
+        <p class="answer">^</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets returns "[object object]"?
+        </h3>
+
+
+        <p class="answer">&lt;script&gt;
+            var o = new Object();
+            o.toString();
+            &lt;/script&gt;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following can be used to invoke an iframe from a
+            parent page?</h3>
+
+
+        <p class="answer">window.frames</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Select the following function that shuffles an array?</h3>
+
+
+        <p class="answer">function shuffle(array) {
+            var tmp, current, top = array.length;
+
+            if(top) while(--top) {
+            current = Math.floor(Math.random() * (top + 1));
+            tmp = array[current];
+            array[current] = array[top];
+            array[top] = tmp;
+            }
+
+            return array;
+            }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets removes objects from an
+            associative array?</h3>
+
+
+        <p class="answer">delete array["propertyName"];</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the error in the statement: var charConvert =
+            toCharCode('x');?</h3>
+
+
+        <p class="answer">toCharCode() is a non-existent method.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What value would JavaScript assign to an uninitialized variable?
+        </h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does the following JavaScript code do?
+
+            contains(a, obj) {
+            for (var i = 0; i &lt; a.length; i++) {
+            if (a[i] === obj) {
+            return true;
+            }
+            }
+            return false;
+            }</h3>
+
+
+        <p class="answer">It checks if an array contains 'obj'.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             If an image is placed styled with z-index=-1 and a text
+            paragraph is overlapped with it, which one will be displayed on top?</h3>
+
+
+        <p class="answer">The paragraph.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets gets an image's dimensions
+            (height &amp; width) correctly?</h3>
+
+
+        <p class="answer">var img = document.getElementById('imageid');
+            var width = img.clientWidth;
+            var height = img.clientHeight;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following are correct values of variableC, and why?
+
+            &lt;script&gt;
+            variableA = [6,8];
+            variableB =[7,9];
+            variableC = variableA + variableB;
+            &lt;/script&gt;</h3>
+
+
+        <p class="answer">6, 87 and 9. The + operator is not defined for arrays, and it concatenates strings, so it
+            converts the arrays to strings.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The following are the samples for getting a selected value in
+            the from a dropdown list:
+
+            &lt;select id="ddlViewBy"&gt;
+            &lt;option value="1"&gt;test1&lt;/option&gt;
+            &lt;option value="2" selected="selected"&gt;test2&lt;/option&gt;
+            &lt;option value="3"&gt;test3&lt;/option&gt;
+            &lt;/select&gt;
+
+            Which code block is correct?</h3>
+
+
+        <p class="answer">var e = document.getElementById("ddlViewBy");
+            var strUser = e.options[e.selectedIndex].value;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var profits=2489.8237
+
+            Which of the following code(s) produces the following output?
+
+            output : 2489.824</h3>
+
+
+        <p class="answer">profits.toFixed(3)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             A form contains two fields named id1 and id2. How can you copy
+            the value of the id2 field to id1?</h3>
+
+
+        <p class="answer">document.forms[0].id1.value=document.forms[0].id2.value</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following code snippets will toggle a div element's
+            background color?
+
+            &lt;button id="toggle"&gt;Toggle&lt;/button&gt;
+            &lt;div id="terd"&gt;Change Background Color.&lt;/div&gt;</h3>
+
+
+        <p class="answer">&lt;script&gt;
+            var button = document.getElementById('toggle');
+            button.onclick = function() {
+            terd.style.backgroundColor = terd.style.backgroundColor == 'blue' ? 'red' : 'blue';
+            };
+            &lt;/script&gt;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can the user's previously navigated page be determined using
+            JavaScript?</h3>
+
+
+        <p class="answer">Using the window object</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is not a valid method for looping an
+            array?</h3>
+
+
+        <p class="answer">var a= [1,2];
+            a.loop( function(item) {
+            alert(item);
+            })</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following correctly sets a class for an element?
+        </h3>
+
+
+        <p class="answer">document.getElementById(elementId).setAttribute("className", "Someclass");</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             An HTML form contains 10 checkboxes all named "chkItems". Which
+            JavaScript function can be used for checking all the checkboxes together?</h3>
+
+
+        <p class="answer">function CheckAll() {
+            for (z = 0; z &lt; document.forms[0].chkItems.length; z++) {
+            document.forms[0].chkItems[z].checked=true
+            }
+            }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is a JavaScript comment?</h3>
+
+
+        <p class="answer">// comment</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var foo = 'Global'; function fun() { log( foo ); var foo =
+            'Local'; log( foo ); } fun(); What the output of the above to log()?</h3>
+
+
+        <p class="answer">undefined Local</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             console.log( typeof [1,2] ) will print out:</h3>
+
+
+        <p class="answer">object</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             JavaScript is ...</h3>
+
+
+        <p class="answer">object based</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Every object is linked to a _________ object from which it can
+            inherit properties.</h3>
+
+
+        <p class="answer">prototype</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var x = typeof NaN;</h3>
+
+
+        <p class="answer">"number"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will be the value of result? function foo(bar) { return bar
+            ? bar == foo : foo(foo); } var result = foo();</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What values will the output function be called with, in the
+            following code: var foo; var bar = { name: "baz", email: "fiz@example.com", sendmail: function() { } }; for
+            (foo in bar) { output(foo); }</h3>
+
+
+        <p class="answer">"name", "email", "sendmail"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider: var x = ['a', 'b', 'c']; Which line of code will
+            remove the first element of the array, resulting in x being equal to ['b', 'c']?</h3>
+
+
+        <p class="answer">x.splice(0, 1);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var z = [typeof z, typeof y][0]; var x =
+            typeof typeof z;</h3>
+
+
+        <p class="answer">"string"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var x = {}; var foo = function () { this.hello = "Hi"; return
+            this; }; x.bar = foo; What is the value of the following code: x.bar().bar().hello;</h3>
+
+
+        <p class="answer">"Hi"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following assigned values of x will cause (x == x)
+            to return false?</h3>
+
+
+        <p class="answer">All of the answers</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What would this code print out? if (new Boolean(false))
+            console.log("True"); else console.log("False");</h3>
+
+
+        <p class="answer">True</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which two values are logged by the following code? var x = 5;
+            (function () { console.log(x); var x = 10; console.log(x); }());</h3>
+
+
+        <p class="answer">undefined 10</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Infinity * null will return :</h3>
+
+
+        <p class="answer">NaN</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Assuming alert displays a string of its argument: var a = 10;
+            function example(){ alert(a); var a = 5; } example(); What will be shown if the preceding code is executed?
+        </h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result? "" ? "a" : "b"</h3>
+
+
+        <p class="answer">"b"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var x = typeof null;</h3>
+
+
+        <p class="answer">"object"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The length property of an Array object is always:</h3>
+
+
+        <p class="answer">equal to the highest index of that object + 1</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var data = [1, 2, 3, 4, 5, 6]; data.shift(); What does data look
+            like?</h3>
+
+
+        <p class="answer">[2, 3, 4, 5, 6]</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which fact is true about the keyword "default"?</h3>
+
+
+        <p class="answer">It catches any case clauses not caught by case statements within a switch statement</p>
+    </div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which String prototype method is capable of removing a character
+            from a string?</h3>
+
+
+        <p class="answer">replace()</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x after the following statement? var x = 1
+            == '1';</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result of the following code snippet? var small =
+            'BIG'; var BIG = 'small'; console.log(/small/.test(BIG)); console.log(/BIG/.test(small));</h3>
+
+
+        <p class="answer">true true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result of the following statement: typeof "x";</h3>
+
+
+        <p class="answer">"string"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Is there a value type for individual string characters?</h3>
+
+
+        <p class="answer">No, there is only type "string" for characters.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Given a variable named stringVar with a string value, what does
+            the following do? stringVar.toUpperCase();</h3>
+
+
+        <p class="answer">Return a copy of stringVar with all letters in uppercase</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which is an example of (only) an object literal in Javascript?
+        </h3>
+
+
+        <p class="answer">var obj = { prop1: 'property 1', prop2: 'property 2' };</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The loop isn't working. What's the problem? &lt;code&gt; var
+            foos = ['a', 'b', 'c' , 'd', 'e']; var bars = ['x', 'y', 'z']; for (var i = 0; i &lt; foos.length; i++) {
+            var foo = foos[i]; for (var i = 0; i &lt; bars.length; i++) { var bar = bars[i]; /* some code using `bar` */
+            } } &lt;/code&gt;</h3>
+
+
+        Answer: •
+        The inner loop resets the outer for-loop, leaving it a fixed position
+        each time, causing an infinite loop (hint: no block scope).</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Functions in javascript are always ..</h3>
+
+
+        <p class="answer">objects</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you read the first character in a string?</h3>
+
+
+        <p class="answer">data.charAt(0);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following have special meanings within the language
+            syntax?</h3>
+
+
+        <p class="answer">Reserved words</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result? 0 == ""</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Primitive types are passed by :</h3>
+
+
+        <p class="answer">Value</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             To what type are values converted internally when evaluating a
+            conditional statement?</h3>
+
+
+        <p class="answer">boolean</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var x = "foo"; x = !!x; What is the value of x?</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will calling the below test function log to console?
+            function test(){ console.log(a); var a = 'hello'; console.log(a); }</h3>
+
+
+        <p class="answer">undefined, "hello"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you assign an anonymous function to a variable?</h3>
+
+
+        <p class="answer">var anon = function() { };</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var x = 2 + "2";</h3>
+
+
+        <p class="answer">"22"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these is not a JavaScript statement?</h3>
+
+
+        <p class="answer">None, these are all valid statements.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following variable types does not exist in
+            JavaScript?</h3>
+
+
+        <p class="answer">double</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is a way to add a new value to the end of
+            an array?</h3>
+
+
+        <p class="answer">arr[arr.length] = value;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the RegExp object constructor used for?</h3>
+
+
+        <p class="answer">Match text against regular expressions</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does "2" + 3 + 4 evaluate to?</h3>
+
+
+        <p class="answer">'234'</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             When an array index goes out of bounds, what is returned?</h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which is the correct syntax to write array literals in
+            JavaScript?</h3>
+
+
+        <p class="answer">var x = ["blank","blank","blank"];</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The "exploit" property:</h3>
+
+
+        <p class="answer">Does not exist in JavaScript</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             split() is a method of which constructors' prototype?</h3>
+
+
+        <p class="answer">String.prototype</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following orders can be performed with the Array
+            prototype "sort()" callback?</h3>
+
+
+        <p class="answer">All of these</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var a = {1:'one',2:'two',3:'three'}; var b = Object.keys(a);
+            What's the value of b?</h3>
+
+
+        <p class="answer">An array with all of the distinct keys from the obj a</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you write a conditional statement that will *only*
+            execute the contained code if variable x has a value 5 of type *number*?</h3>
+
+
+        <p class="answer">if (x === 5) { ... }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of c? var a = function(){ this.b = 1; } var b
+            = function(){ var b = new a().b; return 5 + b; } var c = b();</h3>
+
+
+        <p class="answer">6</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you find the number with the highest value of x and y?
+        </h3>
+
+
+        <p class="answer">Math.max(x, y)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var a = false; var x = a ? “A” : “B”;
+        </h3>
+
+
+        <p class="answer">"B"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following operators can assign a value to a
+            variable?</h3>
+
+
+        <p class="answer">All of these</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var x = '1'+2+3;</h3>
+
+
+        <p class="answer">"123"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is the equivalent of the following. if
+            (a) { x = b; } else { x = c; }</h3>
+
+
+        <p class="answer">x = a ? b : c;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var obj = {}; obj["function"] = 123; x =
+            obj.function;</h3>
+
+
+        <p class="answer">123</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             null === undefined</h3>
+
+
+        <p class="answer">false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which event fires whenever a control loses focus?</h3>
+
+
+        <p class="answer">onblur</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these is not a logical operator?</h3>
+
+
+        <p class="answer">&amp;</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these operators compares two variables by value AND
+            type?</h3>
+
+
+        <p class="answer">===</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which message does the following log to the console? bar();
+            function bar() { console.log('bar'); }</h3>
+
+
+        <p class="answer">"bar"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following invokes a user-defined object constructor
+            function?</h3>
+
+
+        <p class="answer">var x = new myConstructor();</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The function call Math.ceil(3.5) returns:</h3>
+
+
+        <p class="answer">4</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             In JavaScript, to call a function directly, you use:</h3>
+
+
+        <p class="answer">function_expression ( arguments_if_any )</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you declare a function?</h3>
+
+
+        <p class="answer">function doSomething() {}</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How would one declare a string variable?</h3>
+
+
+        <p class="answer">Any of these</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of a : var a = 3; var b = 2; var c = a; var
+            a=b=c=1;</h3>
+
+
+        <p class="answer">1</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Properties of objects may be accessed using...</h3>
+
+
+        <p class="answer">the dot notation in JavaScript.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of the array myArr after execution of the
+            following code: var myArr = [1,2,3,4,5]; myArr.shift();</h3>
+
+
+        <p class="answer">[2,3,4,5]</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does isNaN() do?</h3>
+
+
+        <p class="answer">Only returns true if the argument is not a number</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What keyword is used to define the alternative path to take in a
+            conditional statement?</h3>
+
+
+        <p class="answer">else</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the difference between a while loop and a do...while
+            loop?</h3>
+
+
+        <p class="answer">The code inside a do...while loop will always be executed at least once, even if the
+            condition is false.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the difference between == and === ?</h3>
+
+
+        <p class="answer">The == operator converts both operands to the same type, whereas === returns false for
+            different types.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these could be a correct way to create an instance of
+            Person?</h3>
+
+
+        <p class="answer">var john = new Person('John', 'Doe', 50, 'blue');</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             (function( ) { var x = foo( ); function foo( ){ return "foobar"
+            }; return x; })( ); What does this function return?</h3>
+
+
+        <p class="answer">"foobar"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What operator is used for string concatenation?</h3>
+
+
+        <p class="answer">+</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which is the correct way to write a JavaScript array?</h3>
+
+
+        <p class="answer">var names = ["Tim","Kim","Jim"];</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             USERNAME and userName</h3>
+
+
+        <p class="answer">Represent the name of different variables</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these descriptors applies to JavaScript?</h3>
+
+
+        <p class="answer">Loosely typed, values of any type can be assigned to any variable.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is an Error object constructor?</h3>
+
+
+        <p class="answer">All of these</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you check what the type of a value in variable x is?</h3>
+
+
+        <p class="answer">typeof(x);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is a JavaScript comment?</h3>
+
+
+        <p class="answer">// comment</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of the following expression: 8 % 3</h3>
+
+
+        <p class="answer">2</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var a = '011'; parseInt(a); will return:</h3>
+
+
+        <p class="answer">11</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var a = '011'; parseInt(a); will return:</h3>
+
+
+        <p class="answer">11</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How does a "while" loop start?</h3>
+
+
+        <p class="answer">while (i&lt;=10)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The `else` statement is ___</h3>
+
+
+        <p class="answer">used together with the `if` statement to specify the code that should execute when the `if`
+            condition is false.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Given the following code, what does myFunc() return? var foo =
+            'foo'; var bar = 'bar'; function myFunc() { return foo + bar; }</h3>
+
+
+        <p class="answer">"foobar"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             String literals are written using:</h3>
+
+
+        <p class="answer">Either double quotes or single quotes: "example" and 'example'</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How is an object property referenced?</h3>
+
+
+        <p class="answer">myObj.foo</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which symbol is not used in logical operations?</h3>
+
+
+        <p class="answer">%</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these will throw a SyntaxError?</h3>
+
+
+        <p class="answer">if (x ==== 1) { }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             JavaScript supports dynamic typing, you can assign different
+            types of values to the same variable.</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you round the number 7.25, to the nearest whole number?
+        </h3>
+
+
+        <p class="answer">Math.round(7.25)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How to return the first value of this array? var myArr = [1, 2,
+            3, 4, 5]; var myVal = ...</h3>
+
+
+        <p class="answer">myArr[0];</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you define a function called "fName"?</h3>
+
+
+        <p class="answer">function fName() { }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is not a reserved word?</h3>
+
+
+        <p class="answer">program</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following asserts that the variables `A`, `B`, and
+            `C` have unequal values?</h3>
+
+
+        <p class="answer">A !== B &amp;&amp; B !== C &amp;&amp; A !== C</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does the "break" statement do?</h3>
+
+
+        <p class="answer">Aborts the current loop or switch statement.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is a valid function definition?</h3>
+
+
+        <p class="answer">function myFunc(arg1,arg2) { }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following declares a variable with a value of
+            string type?</h3>
+
+
+        <p class="answer">var myVar = "This is a string";</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Are variable identifiers case-sensitive?</h3>
+
+
+        <p class="answer">Yes</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the correct JavaScript syntax to insert a comment that
+            can span multiple lines?</h3>
+
+
+        <p class="answer">/* This comment has more than one line */</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The "if" statement is used to:</h3>
+
+
+        <p class="answer">Deal with logic that should execute only when a condition is true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which keyboard character represents the assignment operator?
+        </h3>
+
+
+        <p class="answer">=</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             String concatenation...</h3>
+
+
+        <p class="answer">Is the combination of two or more text Strings</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Properties of a RegExp object include:</h3>
+
+
+        <p class="answer">All of these</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             You use the Math.pow() method to:</h3>
+
+
+        <p class="answer">Return a number raised to the power of a second number</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of ("dog".length)?</h3>
+
+
+        <p class="answer">3</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which is NOT a way to create a loop in javascript?</h3>
+
+
+        <p class="answer">repeat (...) { }</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var a = "A"; var x = a.concat("B");</h3>
+
+
+        <p class="answer">"AB"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which statement loops through an array?</h3>
+
+
+        <p class="answer">for (var i=0; i &lt; myArray.length; i++)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The var statement is used to:</h3>
+
+
+        <p class="answer">Create a new local variable</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             function foo(){ var tmp = 'one_two_three_four_five'; return
+            tmp.replace(/_/g, '+'); } What does foo() return?</h3>
+
+
+        <p class="answer">one+two+three+four+five</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             A for loop is written as such: "for (first property; second
+            property; third property) {...}" What does the third property represent?</h3>
+
+
+        <p class="answer">An action to take at the end of the current loop cycle</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Where do you use the "break" statement?</h3>
+
+
+        <p class="answer">To terminate a switch statement, loop, or labeled block.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             In an array object, what is the key of the first value?</h3>
+
+
+        <p class="answer">0</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following primitive values exist in JavaScript?
+        </h3>
+
+
+        <p class="answer">All of these</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What keyword is used to begin a conditional statement?</h3>
+
+
+        <p class="answer">if</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What character ends a javascript statement?</h3>
+
+
+        <p class="answer">A semicolon ";".</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which has the correct syntax of a ternary operation?</h3>
+
+
+        <p class="answer">var x = y === true ? "true" : "false";</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             JavaScript is an implementation of the ______ language standard.
+        </h3>
+
+
+        <p class="answer">ECMAScript</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             If a function doesn't explicitly use the "return" operator, what
+            will the return value be when the function is invoked?</h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is result of the following expression: var a = "test";
+            console.log(!!a);</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the name of the String prototype that appends the given
+            string to the base string and returns the new string?</h3>
+
+
+        <p class="answer">"x".concat("foo")</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these is a correct method to create a new array?</h3>
+
+
+        <p class="answer">var myArray = [];</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var data = ["A",&nbsp;"B",&nbsp;"C",&nbsp;"D"];
+            data.unshift("X"); data.push("Y"); What does data look like?</h3>
+
+
+        <p class="answer">["X", "A", "B", "C", "D", "Y"]</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What character combination is used to create a single line
+            comment?</h3>
+
+
+        <p class="answer">//</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is the syntax for an object literal (with
+            no properties)?</h3>
+
+
+        <p class="answer">{};</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can you concatenate multiple strings?</h3>
+
+
+        <p class="answer">Both of these</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you assign object properties?</h3>
+
+
+        <p class="answer">obj["age"] = 25 OR obj.age = 25</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Consider this code: var x = ['Hello']; What value will 'x[1]'
+            return?</h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The _______ operator returns a string that identifies the type
+            of its operand.</h3>
+
+
+        <p class="answer">typeof</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             When writing an object literal, what is used to separate the
+            properties from each other?</h3>
+
+
+        <p class="answer">a comma ","</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What are curly braces ("{" and "}") used for?</h3>
+
+
+        <p class="answer">Block declarations and object literals</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? function foo(y) { var z = 10; z = 7; };
+            var x = foo("bar");</h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How do you create an object in JavaScript?</h3>
+
+
+        <p class="answer">All of these work.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is not a method in the "JSON" object
+            according to the ECMAScript specification?</h3>
+
+
+        <p class="answer">JSON.fromString</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can you get the number of characters in a string ?</h3>
+
+
+        <p class="answer">"1234567".length</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result of the following statement: 0 == "";</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does null, undefined, "string", 20, true and false have in
+            common?</h3>
+
+
+        <p class="answer">they are primitive values</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Given the following code, what is the value of x? var x =
+            ['foo', 'bar']; x.length = 1;</h3>
+
+
+        <p class="answer">["foo"]</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Math.random() returns..</h3>
+
+
+        <p class="answer">a random number between 0 and 1</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result of the following expression? ({"foo":
+            true}).foo;</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             In the loop, "for (first clause; second clause; third clause) {
+            statements; }" What does the second clause represent?</h3>
+
+
+        <p class="answer">A condition to check at the beginning of each loop cycle</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of `x` after the following? var x = "hello";
+            (function() { x = "goodbye"; }());</h3>
+
+
+        <p class="answer">"goodbye"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which is not a primitive data type in JavaScript?</h3>
+
+
+        <p class="answer">character</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will invoking `foo` return? function foo() { var x = 10; x
+            = 7; };</h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var str = "what is this"; var x =
+            str.search("is");</h3>
+
+
+        <p class="answer">5</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The "this" keyword refers to ...</h3>
+
+
+        <p class="answer">current execution context (could be any value).</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             '&amp;' Operator is _____</h3>
+
+
+        <p class="answer">a bitwise operator</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What character combination is used to alter the order of
+            operations by grouping expressions?</h3>
+
+
+        <p class="answer">( )</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var x = Math.ceil(10.126); What is the value of x?</h3>
+
+
+        <p class="answer">11</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the type of `null`, according to the `typeof` operator?
+        </h3>
+
+
+        <p class="answer">"object"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             function b(x, y, a) { arguments[2] = 10; alert(a); } b(1, 2, 3);
+            What is alerted?</h3>
+
+
+        <p class="answer">10</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the difference between using call() and apply() to
+            invoke a function with multiple arguments?</h3>
+
+
+        <p class="answer">apply() is identical to call(), except apply() requires an array as the second parameter</p>
+    </div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var y = 3, x = y++; What is the value of x?</h3>
+
+
+        <p class="answer">3</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following types does NOT exist in javascript?</h3>
+
+
+        <p class="answer">integer</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the end value of myAddedVar with the following code: var
+            myVar = '5'; var myAddedVar = myVar + 10;</h3>
+
+
+        <p class="answer">'510'</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does this line do? variable++;</h3>
+
+
+        <p class="answer">Increments the value of "variable" but returns the previous value</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var a = new Boolean(false); What is (typeof a)?</h3>
+
+
+        <p class="answer">'object'</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var x = typeof new String("abc");</h3>
+
+
+        <p class="answer">object</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these will invoke a function?</h3>
+
+
+        <p class="answer">function.apply(...)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Does NaN equal itself?</h3>
+
+
+        <p class="answer">No, NaN does not equal itself (== comparison would return false).</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will happen in the console after executing this code? if
+            ("foo") { console.log("foo" === false); console.log("foo" === true); }</h3>
+
+
+        <p class="answer">false false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of the function log? var _ = '_';
+            log(parseInt(_));</h3>
+
+
+        <p class="answer">NaN</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these is not a built-in object constructor?</h3>
+
+
+        <p class="answer">Time</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Given the following code: var myVar = '5'; var myAddedVar =
+            myVar + 10; What is the value of (myAddedVar.constructor === Number)?</h3>
+
+
+        <p class="answer">false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How would you iterate over the following object? var my_data =
+            {a: 'Ape', b: 'Banana', c: 'Citronella'};</h3>
+
+
+        <p class="answer">for (var key in my_data) {}</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x after the following code is executed? var
+            x = 0; x = x++;</h3>
+
+
+        <p class="answer">0</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             You use the Math.tan( ) method to:</h3>
+
+
+        <p class="answer">Return the tangent of an angle (in radians)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             A javascript variable prefixed with a $ is:</h3>
+
+
+        <p class="answer">valid javascript syntax as any other character</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Math.min() &lt; Math.max(); ...will return:</h3>
+
+
+        <p class="answer">false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Math.min() &lt; Math.max(); will return</h3>
+
+
+        <p class="answer">false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does the following expression return? 1 + 5 + " bottles of
+            milk";</h3>
+
+
+        <p class="answer">"6 bottles of milk"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which Object method takes a `propertyName` parameter and returns
+            `true` if the object contains an uninherited property with that key?</h3>
+
+
+        <p class="answer">obj.hasOwnProperty('propertyName');</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var foo = "Global"; function fun() { log( foo ); var foo =
+            "Local"; log( foo ); } fun(); What the output of the above to log()?</h3>
+
+
+        <p class="answer">undefined Local</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is NOT a valid way to write a loop that
+            will iterate over the values in the array in variable "myArray"?</h3>
+
+
+        <p class="answer">None of these, they are all valid</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of c? var A = function () { this.b = 1; }
+            A.prototype.b = 2; var c = new A().b;</h3>
+
+
+        <p class="answer">1</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will be the value of x? function A() { this.do = function
+            () { return 'foo'; }; } A.prototype = { do: function () { return 'bar'; } }; var x = new A().do();</h3>
+
+
+        <p class="answer">"foo"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the right way to combine two arrays into a new array?
+            var a = ["a", "b", "c"]; var b = ["d", "e", "f"];</h3>
+
+
+        <p class="answer">var c = a.concat(b);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the output? var one; var two = null; console.log(one ==
+            two, one === two);</h3>
+
+
+        <p class="answer">true false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which are the different ways to affect the "this" reference in a
+            function?</h3>
+
+
+        <p class="answer">Invoking a function with the "new" keyword, invoking through the .call() method, invoking
+            through the .apply() method.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the difference between the two declaration methods
+            below? var functionOne = function() { /* some code */ } function functionTwo() { /* some code */ }</h3>
+
+
+        Answer: •
+        functionOne is defined in-place (until that line, functionOne is
+        undefined), whereas functionTwo is hoisted to the top of the scope and
+        is available as a function throughout the scope.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How does JavaScript interpret numeric constants outside of
+            strict mode?</h3>
+
+
+        <p class="answer">As octal if they are preceded by a zero, and as hexadecimal if they are preceded by a zero
+            and "x"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             When reserved words are used as keys in object literals they
+            must be ______?</h3>
+
+
+        <p class="answer">quoted</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Mathematical expression, "10" - (12+5).toString(), evaluates to
+            what?</h3>
+
+
+        <p class="answer">-7</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does the following return? Number(null);</h3>
+
+
+        <p class="answer">0</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x.length after running this code? x =
+            ["foo"]; x.quux = "Hello"; x[1] = "bar";</h3>
+
+
+        <p class="answer">2</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x after the code below is executed? var x =
+            ""; function foo() { x += "foo "; } var bar = function() { x += "bar "; }; foo(); var quux = bar = foo;
+            quux();</h3>
+
+
+        <p class="answer">"foo foo "</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will be in console after executing this code: console.log(1
+            + '1' - 1);</h3>
+
+
+        <p class="answer">10</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             The expression (typeof NaN === "number") evaluates to:</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will: typeof typeof(null) return?</h3>
+
+
+        <p class="answer">string</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will the expression a === b return after the following? var
+            a = { "foo": "bar" }; var b = { "foo": "bar" };</h3>
+
+
+        <p class="answer">false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             How can you remove an element from an array and replace it with
+            a new one ?</h3>
+
+
+        <p class="answer">array.splice(...)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will we see in the console after the following code run:
+            var a = 'Bolt'; function f() { if (!a) { var a = 'Nut'; } console.log(a); } f(); console.log(a);</h3>
+
+
+        <p class="answer">'Nut' then 'Bolt'</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             true + true will return :</h3>
+
+
+        <p class="answer">2</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result of: function foo() { output( "biz " + bar()
+            ); } bar(); var bar = function() { return "baz"; }</h3>
+
+
+        <p class="answer">TypeError: Undefined is not a function</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var x = 10/0;</h3>
+
+
+        <p class="answer">Infinity</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will be the result of this expression: void 0</h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does Math.random() do?</h3>
+
+
+        <p class="answer">Returns a random number from and including 0 to less than 1.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             In the following code: function test() { var foo = bar = 5; }
+            test();</h3>
+
+
+        <p class="answer">Variable foo is a local variable. But bar is a global variable.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What are the values of x and y after the invocation of `foo` in
+            following? var x = "I am global x"; var y = "I am global y"; function foo() { var y = x = "Hello from foo";
+            } foo();</h3>
+
+
+        <p class="answer">x = "Hello from foo"; y = "I am global y";</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var q = null; q++; What is q?</h3>
+
+
+        <p class="answer">1</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Given the following code, what will myFunction(123, false,
+            "test") return? function myFunction(param) { return arguments[1] || param; }</h3>
+
+
+        <p class="answer">123</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             After the following code: var a = function(){ this.b = 1;
+            this.deleteMe = function(){ delete this; } }; var c = new a(); c.deleteMe(); What is the value of
+            (String(c))?</h3>
+
+
+        <p class="answer">[object Object]</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which operator has highest precedence?</h3>
+
+
+        <p class="answer">*</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             function Question() { this.answered = false; }
+            Question.prototype.rightAnswer = 5; console.log( new Question().rightAnswer, Question.rightAnswer ); What
+            gets printed to the console?</h3>
+
+
+        <p class="answer">5 undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will the console log when running this code?
+            Function.prototype.a = 1; var a = new Function(); a.prototype.a = 2; var c = new a(); console.log(a.a ,
+            c.a);</h3>
+
+
+        <p class="answer">1 2</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Evaluate: undefined + 2</h3>
+
+
+        <p class="answer">NaN</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Evaluate: new Boolean(new Boolean(false)).valueOf()</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             An (inner) function enjoys access to the parameters and
+            variables of all the functions it is nested in. This is called:</h3>
+
+
+        <p class="answer">Lexical scoping</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Object.keys(x)</h3>
+
+
+        <p class="answer">returns the enumerable properties of x as an array of strings.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             "bar".split().length returns:</h3>
+
+
+        <p class="answer">1</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Math.Pi returns the mathematical constant of Pi. What standard
+            JavaScript method would truncate Math.Pi to 3.14 ?</h3>
+
+
+        <p class="answer">Math.Pi.toFixed(2)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             function foo(){ var tmp = 'one_two_three_four_five'; return
+            tmp.replace('_', '+'); } What does foo() return?</h3>
+
+
+        <p class="answer">one+two_three_four_five</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var x = { foo: "A" }; x.constructor.prototype.foo = "B"; var y =
+            {}; console.log(x.foo); console.log(y.foo); Which two values will be logged?</h3>
+
+
+        <p class="answer">"A" "B"</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Evaluate the following expression: ~-(2 + "2")</h3>
+
+
+        <p class="answer">21</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of these will create a copy of an array such that changes
+            to the old array will not be reflected in the new array?</h3>
+
+
+        <p class="answer">var newArray = oldArray.slice(0);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the output of the following? var x = 1; console.log(x++
+            + ++x + x);</h3>
+
+
+        <p class="answer">7</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             console.log( ~[]+~![]+~!![] ); Console output is:</h3>
+
+
+        <p class="answer">-4</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What value is passed to function "foo" as first argument? foo(
+            +"5" );</h3>
+
+
+        <p class="answer">5</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will be printed to the console as a result of this code?
+            var printName = function() { console.log('Matt'); printName = function() { console.log('James'); }; }; var
+            copy = printName; printName(); copy();</h3>
+
+
+        <p class="answer">Matt Matt</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result of: console.log((!+[]+[]+![]).length);</h3>
+
+
+        <p class="answer">9</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x after the following code is run? var obj
+            = { 0: 'who', 1: 'what', 2: 'idontknow'}; var x = 1 in obj;</h3>
+
+
+        <p class="answer">true</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following String prototype method takes a regular
+            expression?</h3>
+
+
+        <p class="answer">search()</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of mike after this code is run? function
+            Person(name, age) { this.name = name; this.age = parseInt(age, 10); } var mike = Person('Mike', '25');</h3>
+
+
+        <p class="answer">undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             var x = ([]+!![])[+!+[]]; What is the value of x?</h3>
+
+
+        <p class="answer">'r'</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following expressions evaluates to false?</h3>
+
+
+        <p class="answer">new Boolean('false') == false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Math.log(x) returns:</h3>
+
+
+        <p class="answer">Logarithm base e (Euler's number) of x.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is not a reserved word in the language?
+        </h3>
+
+
+        <p class="answer">and</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the result of the below expression? Assume output is a
+            function that outputs a line of text. output(typeof (function() {output("Hello World!")})());</h3>
+
+
+        <p class="answer">Hello World! undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of "x" after the following code runs? var x;
+            x++;</h3>
+
+
+        <p class="answer">NaN</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             function foo() { this = "foo"; } var a = foo(); What will the
+            preceding code produce?</h3>
+
+
+        <p class="answer">ReferenceError: Invalid left-hand side in assignment</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will this code produce: +new Date()</h3>
+
+
+        <p class="answer">Unix timestamp in milliseconds (UTC timezone)</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of c? var a = function(){ this.b = 1; } var b
+            = function(){ this.b = new a().b; return 5; } var c = b() + new b();</h3>
+
+
+        <p class="answer">Error thrown when running the code</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following Array prototype method actually modifies
+            the array it's been called on?</h3>
+
+
+        <p class="answer">splice()</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What does the following return? Math.max();</h3>
+
+
+        <p class="answer">-Infinity</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which are the different value types in JavaScript?</h3>
+
+
+        <p class="answer">boolean, number, string, function, object and undefined</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             String values have a "length" property. Why is this property not
+            included in a for-in loop over a string object? var prop, str; str = 'example'; /* str.length === 7 */ for (
+            prop in str) {}</h3>
+
+
+        <p class="answer">Because the "length" property has internal [[Enumerable]] set to false.</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What will the following code, when evaluated, do? var void =
+            function () {};</h3>
+
+
+        <p class="answer">Throw a SyntaxError</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Object("s") instanceof String === "s" instanceof String</h3>
+
+
+        <p class="answer">false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What's the correct syntax for creating a Date object for January
+            10, 1998?</h3>
+
+
+        <p class="answer">new Date(1998, 0, 10);</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Evaluate: ![]+[]</h3>
+
+
+        <p class="answer">'false'</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             What is the value of x? var a = "abc"; var x = a instanceof
+            String;</h3>
+
+
+        <p class="answer">false</p></div>
+    <div class="question-block">
+
+
+        <h3 class="question">
+             Which of the following is NOT a reserved word in JavaScript?
+        </h3>
+
+
+        <p class="answer">array</p></div>
+
+    <br>
+    <hr>
+
+</div>
+
+<script src="run.js"></script>
+</body>
+</html>

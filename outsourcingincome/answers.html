@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>outsourcingincome</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+</head>
+<body>
+
+
+<div class="post-single-content box mark-links">
+    <div class=question-block>
+        <p class="question">1. Which of the following is true about setTimeOut()?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> The statement(s) it executes run(s) only once.</strong></li>
+            <li>It pauses the script in which it is called.</li>
+            <li>clearTimeOut() won’t stop its execution.</li>
+            <li>The delay is measured in hundredths of a second.</li>
+            <li>It is required in every JavaScript function.</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">2. How can the operating system of the client machine be detected?</p>
+        <ul>
+            <li>It is not possible using JavaScript.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Using the navigator object</strong></li>
+            <li>Using the window object</li>
+            <li>Using the document object</li>
+            <li>None of these.</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">3. Which of the following prints “AbBc”?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> var b = ‘a'; var result = b.toUpperCase() + ‘b’ + ‘b’.toUpperCase() +’C'[‘toLowerCase’]();
+                alert(result);</strong></li>
+            <li>var b = ‘a'; var result = b.toUpperCase() + ‘b’ + ‘b’.toUpperCase() +’c'[‘toUpperCase’]();
+                alert(result);
+            </li>
+            <li>var b = ‘a'; var result = b.toUpperCase() + b + ‘b’.toUpperCase() +’C'[‘toLowerCase’]();
+                alert(result);
+            </li>
+            <li>var b = ‘a'; var result = b.toUpperCase() + ‘b’ + ‘b’.toUpperCase() +C; alert(result);</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">4. Which of the following descriptions is true for the code below?</p>
+
+
+
+        <p class="question">var object0 = {};</p>
+
+        <p class="question">Object.defineProperty(object0, “prop0″, { value : 1, enumerable:false, configurable : true });</p>
+
+        <p class="question">Object.defineProperty(object0, “prop1″, { value : 2, enumerable:true,&nbsp; configurable : false });</p>
+
+        <p class="question">Object.defineProperty(object0, “prop2″, { value : 3 });</p>
+
+        <p class="question">object0.prop3 = 4;</p>
+        <ul>
+            <li>Object ‘object0′ contains 4 properties. Property ‘prop2′ and property ‘prop3′ are available in the
+                for…in
+                loop. Property ‘prop0′ and property ‘prop1′ are available to delete.
+            </li>
+            <li>Object ‘object0′ contains 4 properties. Property ‘prop1′ and property ‘prop2′ are available in the
+                for…in
+                loop. Property ‘prop2′ and property ‘prop3′ are available to delete.
+            </li>
+            <li>Object ‘object0′ contains 4 properties. Property ‘prop0′ and property ‘prop2′ are available in the
+                for…in
+                loop. Property ‘prop0′ and property ‘prop2′ are available to delete.
+            </li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Object ‘object0′ contains 4 properties. Property ‘prop1′ and property ‘prop3′ are available in
+                the
+                for…in loop. Property ‘prop0′ and property ‘prop3′ are available to delete.</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">5. Performance-wise, which is the fastest way of repeating a string in JavaScript?</p>
+        <ul>
+            <li>String.prototype.repeat = function( num ) { return new Array( num + 1 ).join( this ); }</li>
+            <li>function repeat(pattern, count) { if (count &lt; 1) return ”; var result = ”; while (count &gt; 0) { if
+                (count &amp; 1) result += pattern; count &gt;&gt;= 1, pattern += pattern; } return result; }
+            </li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> String.prototype.repeat = function(count) { if (count &lt; 1) return ”; var result = ”, pattern
+                =
+                this.valueOf(); while (count &gt; 0) { if (count &amp; 1) result += pattern; count &gt;&gt;= 1, pattern
+                +=
+                pattern; } return result; };</strong></li>
+            <li>String.prototype.repeat = function (n, d) { return –n ? this + (d || ”) + this.repeat(n, d) : ” + this
+                };
+            </li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">6. Consider the following variable declarations:</p>
+
+
+
+        <p class="question">var a=”adam”</p>
+
+        <p class="question">var b=”eve”</p>
+
+
+
+        <p class="question">Which of the following would return the sentence “adam and eve”?</p>
+        <ul>
+            <li>a.concatinate(“and”, b)</li>
+            <li>a.concat(“and”, b)</li>
+            <li>a.concatinate(” and “, b)</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> a.concat(” and “, b)</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">7. Which of the following code snippets will correctly split “str”?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> &lt;script&gt; var str = ‘something — something_else'; var substrn = str.split(‘ — ‘); &lt;/script&gt;</strong>
+            </li>
+            <li>&lt;script&gt; var str = ‘something — something_else'; var substrn = split.str(‘ — ‘);
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt; var str = ‘something — something_else'; var substrn = str.split(‘ – ‘,’ – ‘);
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt; var str = ‘something — something_else'; var substrn = split.str(‘ – ‘,’ – ‘);
+                &lt;/script&gt;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">8. Which object can be used to ascertain the protocol of the current URL?</p>
+        <ul>
+            <li>document</li>
+            <li>window</li>
+            <li>history</li>
+            <li>browser</li>
+            <li>form</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> location</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">9. Which of the following best describes a “for” loop?</p>
+        <ul>
+            <li>“for” loop consists of six optional expressions, enclosed in parentheses and separated by semicolons,
+                followed by a statement executed in the loop.
+            </li>
+            <li>“for” loop consists of five optional expressions, enclosed in parentheses and separated by semicolons,
+                followed by a statement executed in the loop.
+            </li>
+            <li>“for” loop consists of four optional expressions, enclosed in parentheses and separated by semicolons,
+                followed by a statement executed in the loop.
+            </li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> “for” loop consists of three optional expressions, enclosed in parentheses and separated by
+                semicolons, followed by a statement executed in the loop.</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">10. Which of the following descriptions best describes the code below?</p>
+
+
+
+        <p class="question">&lt;script&gt;</p>
+
+        <p class="question">var variable1 = { fastFood: “spaghetti”, length: 10 };</p>
+
+        <p class="question">Object.freeze(variable1);</p>
+
+        <p class="question">variable1.price = 50;</p>
+
+        <p class="question">delete variable1.length;</p>
+
+        <p class="question">&lt;/script&gt;</p>
+        <ul>
+            <li>Object is frozen, a property named “price” is added in the variable1 object, a property named “length”
+                is
+                deleted from this object. At the end of the code, the object “variable1″ contains 2 properties.
+            </li>
+            <li>Object is frozen, a property named “price” is not added in the variable1 object, a property named
+                “length”
+                is deleted from this object. At the end of the code, object “variable1″ contains 1 properties.
+            </li>
+            <li>Object is frozen, a property named “price” is added in the variable1 object, a property named “length”
+                is
+                not deleted from this object. At the end of the code, object “variable1″ contains 1 properties.
+            </li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Object is frozen, a property named “price” is not added in the variable1 object, a property
+                named
+                “length” is not deleted from this object. At the end of the code, object “variable1″ contains 2
+                properties.</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">11. Which of the following is not a valid HTML event?</p>
+        <ul>
+            <li>ondblclick</li>
+            <li>onmousemove</li>
+            <li>onclick</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> onblink</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">12. Analyze the following code snippet which uses a Javascript Regular Expression character set. What will
+            be
+            the output of this code?</p>
+
+
+
+        <p class="question">&lt;html&gt;</p>
+
+        <p class="question">&lt;body&gt;</p>
+
+
+
+        <p class="question">&lt;script type=”text/javascript”&gt;</p>
+
+        <p class="question">var str = “Is this enough?”;</p>
+
+        <p class="question">var patt1 = new RegExp(“[^A-J]”);</p>
+
+        <p class="question">var result = str.match(patt1);</p>
+
+        <p class="question">document.write(result);</p>
+
+        <p class="question">&lt;/script&gt;</p>
+
+
+
+        <p class="question">&lt;/body&gt;</p>
+
+        <p class="question">&lt;/html</p>
+        <ul>
+            <li>I</li>
+            <li>Is</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> s</strong></li>
+            <li>I,s,</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">13. Consider the following image definition:</p>
+
+        <p class="question">&lt;img id=”logo” src=”companylogo1.gif” height=”12″ width=”12″ &gt;</p>
+
+        <p class="question">Which of the following will change the image to companylogo2.gif when the page loads?</p>
+        <ul>
+            <li>logo.source=”companylogo2.gif”</li>
+            <li>logo.source=”companylogo1.gif”</li>
+            <li>document.getElementById(‘logo’).src=”companylogo1.gif”</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> document.getElementById(‘logo’).src=”companylogo2.gif”</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">14. What is the final value of the variable bar in the following code?</p>
+
+
+
+        <p class="question">var foo = 9;</p>
+
+        <p class="question">bar = 5;</p>
+
+        <p class="question">(function() {</p>
+
+        <p class="question">var foo = 2;</p>
+
+        <p class="question">bar= 1;</p>
+
+        <p class="question">}())</p>
+
+        <p class="question">bar = bar + foo;</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> 10</strong></li>
+            <li>14</li>
+            <li>3</li>
+            <li>7</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">15. Which of the following are JavaScript unit testing tools?</p>
+        <ul>
+            <li>Buster.js, jQuery, YUI Yeti</li>
+            <li>QUnit, Modernizr, JsTestDriver</li>
+            <li>Node.js, Modernizr, Jasmine</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Buster.js, YUI Yeti, Jasmine</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">16. Which of the following can be used for disabling the right click event in Internet Explorer?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> event.button == 2</strong></li>
+            <li>event.button == 4</li>
+            <li>event.click == 2</li>
+            <li>event.click == 4</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">17. An image tag is defined as follows:</p>
+
+        <p class="question">&lt;img id=”ERImage” width=”100″ height=”100″ onmouseover=”ImageChange()”&nbsp; src=”Image1.jpg”&gt;</p>
+
+        <p class="question">The purpose of the ImageChange() function is to change the image source to Image2.jpg. Which of the following
+            should the ImageChange() function look like?</p>
+        <ul>
+            <li>document.getElementById(‘ERImage’).src=”Image1.jpg”</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> document.getElementById(‘ERImage’).src=”Image2.jpg”</strong></li>
+            <li>document.getElementById(‘ERImage’).style.src=”Image1.jpg”</li>
+            <li>document.getElementById(‘ERImage’).style.src=”Image2.jpg”</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">18. Consider the following JavaScript alert:</p>
+
+        <p class="question">&lt;script type=”text/JavaScript”&gt;</p>
+
+        <p class="question">function message() {</p>
+
+        <p class="question">alert(“Welcome to ExpertRating!!!”)</p>
+
+        <p class="question">}</p>
+
+        <p class="question">&lt;/script&gt;</p>
+
+        <p class="question">Which of the following will run the function when a user opens the page?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> body onload=”message()”</strong></li>
+            <li>body onunload=”message()”</li>
+            <li>body onsubmit=”message()”</li>
+            <li>body onreset=”message()”</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">19. Which of the following code snippets will correctly get the length of an object?</p>
+        <ul>
+            <li>&lt;script&gt; var newObj = new Object(); newObj[“firstname”] = “FirstName”; newObj[“lastname”] =
+                “LastName”; newObj[“age”] = 21; Object.size = function(obj) { var size = 0, key; for (key in obj) { if
+                (obj.hasOwnProperty(index)) size++; } return size; }; var size = Object.size(newObj);
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt; var newObj = new Object(); newObj[“firstname”] = “FirstName”; newObj[“lastname”] =
+                “LastName”; newObj[“age”] = 21; Object.size = function(obj) { var size = 0, key; for (key in obj) { if
+                (obj.hasOwnProperty(value)) size++; } return size; }; var size = Object.size(newObj);
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt; var newObj = new Object(); newObj[“firstname”] = “FirstName”; newObj[“lastname”] =
+                “LastName”; newObj[“age”] = 21; Object.size = function(obj) { var size = 0, key; for (key in obj) { if
+                (obj.hasOwnProperty(length)) size++; } return size; }; var size = Object.size(newObj);
+                &lt;/script&gt;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> &lt;script&gt; var newObj = new Object(); newObj[“firstname”] = “FirstName”; newObj[“lastname”]
+                =
+                “LastName”; newObj[“age”] = 21; Object.size = function(obj) { var size = 0, key; for (key in obj) { if
+                (obj.hasOwnProperty(key)) size++; } return size; }; var size = Object.size(newObj);
+                &lt;/script&gt;</strong>
+            </li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">20. Which of the following Array methods in JavaScript runs a function on every item in the Array and
+            collects
+            the result from previous calls, but in reverse?</p>
+        <ul>
+            <li>reduce()</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> reduceRight()</strong></li>
+            <li>reverse()</li>
+            <li>pop()</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">21. In an HTML page, the form tag is defined as follows:</p>
+
+        <p class="question">&lt;form onsubmit=”return Validate()” action=”http://www.mysite.com/”&gt;</p>
+
+        <p class="question">The validate() function is intended to prevent the form from being submitted if the name field in the form is
+            empty. What should the validate() function look like?</p>
+        <ul>
+            <li>&lt;script type=”text/javascript”&gt; function Validate() { if(document.forms[0].name.value == “”)
+                return
+                true; else return false; } &lt;/script&gt;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> &lt;script type=”text/javascript”&gt; function Validate() { if(document.forms[0].name.value ==
+                “”)
+                return false; else return true; } &lt;/script&gt;</strong></li>
+            <li>script type=”text/javascript”&gt; function Validate() { if(document.forms[0].name== “”) return false;
+                else
+                return true; } &lt;/script&gt;</li>
+            <li>&lt;script type=”text/javascript”&gt; function Validate() { if(document.forms[0].name == “”) return
+                true;
+                else return false; } &lt;/script&gt;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">22. Which of the following code snippets changes an image on the page?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> var img = document.getElementById(“imageId”); img.src = “newImage.gif”;</strong></li>
+            <li>var img = document.getElementById(“imageId”); img.style.src = “newImage.gif”;</li>
+            <li>var img = document.getElementById(“imageId”); img.src.value = “newImage.gif”;</li>
+            <li>var img = document.getElementById(“imageId”); img = “newImage.gif”;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">23. Which of the following results is returned by the JavaScript operator “typeof” for the keyword
+            “null”?</p>
+        <ul>
+            <li>function</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> object</strong></li>
+            <li>string</li>
+            <li>number</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">24. What will be the final value of the variable “apt”?</p>
+
+
+
+        <p class="question">var apt=2;</p>
+
+        <p class="question">apt=apt&lt;&lt;2;</p>
+        <ul>
+            <li>2</li>
+            <li>4</li>
+            <li>6</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> 8</strong></li>
+            <li>16</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">25. How can a JavaScript object be printed?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> console.log(obj)</strong></li>
+            <li>console.print(obj)</li>
+            <li>console.echo(obj);</li>
+            <li>None of these</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">26. Which of the following is the correct syntax for using the JavaScript exec() object method?</p>
+        <ul>
+            <li>RegExpObject.exec()</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> RegExpObject.exec(string)</strong></li>
+            <li>RegExpObject.exec(parameter1,parameter2)</li>
+            <li>None of these</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">27. Having an array object var arr = new Array(), what is the best way to add a new item to the end of an
+            array?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> arr.push(“New Item”)</strong></li>
+            <li>arr[arr.length] = “New Item”</li>
+            <li>arr.unshift(“New Item”)</li>
+            <li>arr.append(“New Item”)</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">
+            Consider the following JavaScript validation function:
+        </p>
+        <p class="question">function ValidateField()</p>
+
+        <p class="question">{</p>
+
+        <p class="question">if(document.forms[0].txtId.value ==””)</p>
+
+        <p class="question">{return false;}</p>
+
+
+
+        <p class="question">return true;</p>
+
+        <p class="question">}</p>
+
+        <p class="question">Which of the following options will call the function as soon as the user leaves the field?</p>
+        <ul>
+            <li>input name=txtId type=”text” onreset=”return ValidateField()”</li>
+            <li>input name=txtId type=”text” onfocus=”return ValidateField()”</li>
+            <li>input name=txtId type=”text” onsubmit=”return ValidateField()”</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> input name=txtId type=”text” onblur=”return ValidateField()”</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">29. Which of following uses the “with” statement in JavaScript correctly?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> with (document.getElementById(“blah”).style) { background = “black”; color = “blue”; border =
+                “1px
+                solid green”; }</strong></li>
+            <li>with document.getElementById(“blah”).style background = “black”; color = “blue”; border = “1px solid
+                green”;
+                End With
+            </li>
+            <li>With document.getElementByName(“blah”).style background = “black”; color = “blue”; border = “1px solid
+                green”; End With
+            </li>
+            <li>with (document.getElementById(“blah”).style) { .background = “black”; .color = “blue”; .border = “1px
+                solid
+                green”; }
+            </li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">30. Consider the following JavaScript validation function:</p>
+
+
+
+        <p class="question">&lt;script type=”text/JavaScript”&gt;</p>
+
+        <p class="question">function ValidateField()</p>
+
+        <p class="question">{</p>
+
+        <p class="question">if(document.forms[0].txtId.value ==””)</p>
+
+        <p class="question">{return false;}</p>
+
+
+
+        <p class="question">return true;</p>
+
+        <p class="question">}</p>
+
+        <p class="question">&lt;/script&gt;</p>
+
+
+
+        <p class="question">Which of the following options will call the function as soon as the user leaves the field?</p>
+        <ul>
+            <li>input name=txtId type=”text” onreset=”return ValidateField()”</li>
+            <li>input name=txtId type=”text” onfocus=”return ValidateField()”</li>
+            <li>input name=txtId type=”text” onsubmit=”return ValidateField()”</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> input name=txtId type=”text” onblur=”return ValidateField()”</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">31. Which of the following modifiers must be set if the JavaScript lastIndex object property was used
+            during
+            pattern matching?</p>
+        <ul>
+            <li>i</li>
+            <li>m</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> g</strong></li>
+            <li>s</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">32. Consider the following image definition:</p>
+
+
+
+        <p class="question">&lt;img id=”logo” src=”companylogo1.gif” height=”12″ width=”12″ &gt;</p>
+
+
+
+        <p class="question">Which of the following will change the image to “companylogo2.gif” when the page loads?</p>
+        <ul>
+            <li>logo.source=”companylogo2.gif”</li>
+            <li>logo.source=”companylogo1.gif”</li>
+            <li>document.getElementById(‘logo’).src=”companylogo1.gif”</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> document.getElementById(‘logo’).src=”companylogo2.gif”</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">33. Which of the following will check whether the variable vRast exists or not?</p>
+        <ul>
+            <li>if (typeof vRast=”undefined”) {}</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> if (typeof vRast ==”undefined”) {}</strong></li>
+            <li>if (vRast.defined =true) {}</li>
+            <li>if (vRast.defined ==true) {}</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">34. What would be the use of the following code?</p>
+
+
+
+        <p class="question">function validate(field) {</p>
+
+        <p class="question">var valid=”ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz”;</p>
+
+        <p class="question">var ok=”yes”;</p>
+
+        <p class="question">var temp;</p>
+
+
+
+        <p class="question">for(var i=0;i&lt;field.value.length;i++) {</p>
+
+        <p class="question">temp=”” + field.value.substring(i,i+1)</p>
+
+
+
+        <p class="question">if(valid.indexOf(temp)==”-1”) {</p>
+
+        <p class="question">ok=”no”;</p>
+
+        <p class="question">}</p>
+
+        <p class="question">}</p>
+
+
+
+        <p class="question">if(ok==”no”) {</p>
+
+        <p class="question">alert(”error”);</p>
+
+        <p class="question">field.focus();</p>
+
+        <p class="question">}</p>
+
+        <p class="question">}</p>
+        <ul>
+            <li>It will force a user to enter only numeric values.</li>
+            <li>It will force a user to enter only alphanumeric values.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> It will force a user to enter only English alphabet character values.</strong></li>
+            <li>None of these.</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">35. An image tag is defined as follows:</p>
+
+
+
+        <p class="question">&lt;img id=”ERImage” width=”100″ height=”100″ onmouseover=”ImageChange()”&nbsp; src=”Image1.jpg”&gt;</p>
+
+
+
+        <p class="question">The purpose of the ImageChange() function is to change the image source to “Image2.jpg”. Which of the
+            following
+            should the ImageChange() function look like?</p>
+        <ul>
+            <li>document.getElementById(‘ERImage’).src=”Image1.jpg”</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> document.getElementById(‘ERImage’).src=”Image2.jpg”</strong></li>
+            <li>document.getElementById(‘ERImage’).style.src=”Image1.jpg”</li>
+            <li>document.getElementById(‘ERImage’).style.src=”Image2.jpg”</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">36. Which of the following choices will detect if “variableName” declares a function?</p>
+
+
+
+        <p class="question">&lt;script&gt;</p>
+
+        <p class="question">var variableName= function(){};</p>
+
+        <p class="question">&lt;/script&gt;</p>
+        <ul>
+            <li>return variableName;</li>
+            <li>nameof variableName;</li>
+            <li>isFunction variableName;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> typeof variableName;</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">37. Which of the following choices will change the source of the image to “image2.gif” when a user clicks
+            on
+            the image?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> img id=”imageID” src=”image1.gif” width=”50″ height=”60″ onmousedown=”changeimg(image1.gif)”
+                onmouseup=”changeimg(image2.gif)”</strong></li>
+            <li>img id=”imageID” src=”image1.gif” width=”50″ height=”60″ onmouseclick=”changeimg(image2.gif)”
+                onmouseup=”changeimg(image1.gif)”
+            </li>
+            <li>img id=”imageID” src=”image2.gif” width=”50″ height=”60″ onmousedown=”changeimg(image1.gif)”
+                onmouseup=”changeimg(image2.gif)”
+            </li>
+            <li>img id=”imageID” src=”image2.gif” width=”50″ height=”60″ onmousedown=”changeimg(image2.gif)”
+                onmouseup=”changeimg(image1.gif)”
+            </li>
+            <li>img id=”imageID” src=”image1.gif” width=”50″ height=”60″ onmousedown=”changeimg(‘image2.gif’)”
+                onmouseup=”changeimg(‘image1.gif’)”
+            </li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">38. How can created cookies be deleted using JavaScript?</p>
+        <ul>
+            <li>They can’t be deleted. They are valid until they expire.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Overwrite with an expiry date in the past</strong></li>
+            <li>Use escape() on the value of the path attribute</li>
+            <li>Use unescape() on the value of the path attribute</li>
+            <li>The cookie file will have to be removed from the client machine.</li>
+            <li>Wait till the expiry date is reached</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">What would be the value of ‘ind’ after execution of the following code?</p>
+
+        <p class="question">var msg=”Welcome to ExpertRating”</p>
+
+        <p class="question">var ind= msg.substr(3, 3)</p>
+
+        
+        <ul>
+            <li>lco</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> com</strong></li>
+            <li>ome</li>
+            <li>Welcome</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">40. Are the two statements below interchangeable?</p>
+
+
+
+        <p class="question">object.property</p>
+
+        <p class="question">object[”property”]</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Yes</strong></li>
+            <li>No</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">41. Which of the following is not a valid method in generator-iterator objects in JavaScript?</p>
+        <ul>
+            <li>send()</li>
+            <li>throw()</li>
+            <li>next()</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> stop()</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">42. Which of the following code snippets will return all HTTP headers?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> var req = new XMLHttpRequest(); req.open(‘GET’, document.location, false); req.send(null); var
+                headers = req.getAllResponseHeaders().toLowerCase(); alert(headers);</strong></li>
+            <li>var req = new XMLHttpAccess(); req.open(‘GET’, document.location, false); req.send(null); var headers =
+                req.getAllResponseHeaders().toLowerCase(); alert(headers);
+            </li>
+            <li>var req = new XMLHttpRequest(); req.open(‘GET’, document.location, false); req.send(null); var headers =
+                req.getResponseHeader().toLowerCase(); alert(headers);
+            </li>
+            <li>var req = new XMLHttpRequestHeader(); req.open(‘GET’, document.location, false); req.send(null); var
+                headers
+                = req.retrieveAllResponseHeaders().toLowerCase(); alert(headers);
+            </li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">43. Consider the following JavaScript alert:</p>
+
+
+
+        <p class="question">&lt;script type=”text/JavaScript”&gt;</p>
+
+        <p class="question">function message() {</p>
+
+        <p class="question">alert(“Welcome to ExpertRating!!!”)</p>
+
+        <p class="question">}</p>
+
+        <p class="question">&lt;/script&gt;</p>
+
+
+
+        <p class="question">Which of the following will run the function when a user opens the page?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> body onload=”message()”</strong></li>
+            <li>body onunload=”message()”</li>
+            <li>body onsubmit=”message()”</li>
+            <li>body onreset=”message()”</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">44. Which of the following is the most secure and efficient way of declaring an array?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> var a = []</strong></li>
+            <li>var a = new Array()</li>
+            <li>var a = new Array(n)</li>
+            <li>var a</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">45. Which of the following Regular Expression pattern flags is not valid?</p>
+        <ul>
+            <li>gi</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> p</strong></li>
+            <li>i</li>
+            <li>g</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">46. Which of the following built-in functions is used to access form elements using their IDs?</p>
+
+        
+        <ul>
+            <li>getItem(id)</li>
+            <li>getFormElement(id)</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> getElementById(id)</strong></li>
+            <li>All of these</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">47. Which of the following statements is correct?</p>
+        <ul>
+            <li>There is no undefined property in JavaScript.</li>
+            <li>Undefined object properties can be checked using the following code: if (typeof something == null)
+                alert(“something is undefined”);
+            </li>
+            <li>It is not possible to check for undefined object properties in JavaScript.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Undefined object properties can be checked using the following code: if (typeof something ===
+                “undefined”) alert(“something is undefined”);</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">48. Which of the following correctly uses a timer with a function named rearrange()?</p>
+
+
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> tmr=setTimeout(“rearrange ()”,1)</strong></li>
+            <li>tmr=Timer(1,”rearrange ()”)</li>
+            <li>tmr=Timer(“rearrange ()”,1)</li>
+            <li>tmr=setTimeout(1,”rearrange ()”)</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">49. Which of the following can be used to escape the ‘ character?</p>
+        <ul>
+            <li>*</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> \</strong></li>
+            <li>–</li>
+            <li>@</li>
+            <li>#</li>
+            <li>%</li>
+            <li>|</li>
+            <li>~</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">50. Which event can be used to validate the value in a field as soon as the user moves out of the field by
+            pressing the tab key?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> onblur</strong></li>
+            <li>onfocus</li>
+            <li>lostfocus</li>
+            <li>gotfocus</li>
+            <li>None of these</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">51. When setting cookies with JavaScript, what will happen to the cookies.txt data if the file exceeds the
+            maximum size?</p>
+
+
+        <ul>
+            <li>The script automatically generates a run-time error.</li>
+            <li>The script automatically generates a load-time error.</li>
+            <li>All processes using document.cookie are ignored.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> The file is truncated to the maximum length.</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">52. Which of the following are not global methods and properties in E4X?</p>
+        <ul>
+            <li>ignoreComments</li>
+            <li>ignoreWhiteSpace</li>
+            <li>setName()</li>
+            <li>setNamespace()</li>
+            <li>ignoreComments and ignoreWhiteSpace</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> setName() and setNamespace()</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">53. Which of the following will change the color of a paragraph’s text to blue when a user hovers over it,
+            and
+            reset it back to black when the user hovers out?</p>
+        <ul>
+            <li>&lt;p onmouseover=”style.color=’black'” onmouseout=”style.color=’blue'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> &lt;p onmouseover=”style.color=’blue'” onmouseout=”style.color=’black'”&gt; The text of the
+                paragraph..&lt;/p&gt;</strong></li>
+            <li>&lt;p onmouseout=”style.color=’blue'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+            <li>&lt;p onmouseover=”style.color=’blue'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+            <li>&lt;p onmousein=”style.color=’blue'” onmouseout=”style.color=’black'”&gt; The text of the paragraph..&lt;/p&gt;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">54. What is the purpose of while(1) in the following JSON response?</p>
+
+
+
+        <p class="question">
+            while(1);[[‘u’,[[‘smsSentFlag’,’false’],[‘hideInvitations’,’false’],[‘remindOnRespondedEventsOnly’,’true’],[‘hideInvitations_remindOnRespondedEventsOnly’,’false_true’],[‘Calendar
+            ID stripped for privacy’,’false’],[‘smsVerifiedFlag’,’true’]]]]</p>
+        <ul>
+            <li>It’s invalid JSON code.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> It makes it difficult for a third-party to insert the JSON response into an HTML document with
+                a
+                &lt;script&gt; tag.</strong></li>
+            <li>It iterates the JSON response.</li>
+            <li>It prevents the JSON response from getting executed.</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">55. Consider the three variables:</p>
+
+
+
+        <p class="question">someText = ‘JavaScript1.2′;</p>
+
+        <p class="question">pattern = /(\w+)(\d)\.(\d)/i;</p>
+
+        <p class="question">outCome = pattern.exec(someText);</p>
+
+
+
+        <p class="question">What does outCome[0] contain?</p>
+        <ul>
+            <li>true</li>
+            <li>false</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> JavaScript1.2</strong></li>
+            <li>null</li>
+            <li>0</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">56. Which of the following choices will turn a string into a JavaScript function call (case with objects)
+            of
+            the following code snippet?</p>
+
+
+
+        <p class="question">&lt;script&gt;</p>
+
+        <p class="question">window.foo = {</p>
+
+        <p class="question">bar: {</p>
+
+        <p class="question">baz: function() {</p>
+
+        <p class="question">alert(‘Hello!’);</p>
+
+        <p class="question">}</p>
+
+        <p class="question">}</p>
+
+        <p class="question">};</p>
+
+        <p class="question">&lt;/script&gt;</p>
+        <ul>
+            <li>bar[‘baz’]();</li>
+            <li>object[‘foo’][‘bar’][‘baz’]();</li>
+            <li>document[‘foo’][‘bar’][‘baz’]();</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> window[‘foo’][‘bar’][‘baz’]();</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">57. Which of the following determines whether cookies are enabled in a browser or not?</p>
+        <ul>
+            <li>(navigator.Cookie)? true : false</li>
+            <li>(application.cookieEnabled)? true : false</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> (navigator.cookieEnabled)? true : false</strong></li>
+            <li>(application.cookie)? true : false</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">58. Which of the following options can be used for adding direct support for XML to JavaScript?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> E4X</strong></li>
+            <li>egex</li>
+            <li>Generators and Iterators</li>
+            <li>let</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">59. Which of the following will detect which DOM element has the focus?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> document.activeElement</strong></li>
+            <li>document.ready</li>
+            <li>document.referrer</li>
+            <li>document.getelementbyid</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">60. Which of the following will randomly choose an element from an array named myStuff, given that the
+            number
+            of elements changes dynamically?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> randomElement = myStuff[Math.floor(Math.random() * myStuff.length)];</strong></li>
+            <li>randomElement = myStuff[Math.ceil(Math.random() * myStuff.length)];</li>
+            <li>randomElement = myStuff[Math.random(myStuff.length)];</li>
+            <li>randomElement = Math.random(myStuff.length);</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">61. How can global variables be declared in JavaScript?</p>
+        <ul>
+            <li>All variables are local in JavaScript.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Declare the variable between the ‘script’ tags, and outside a function to make the variable
+                global</strong></li>
+            <li>Precede the variable name with the constant global</li>
+            <li>Declare the variable in an external file</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">62. Which of the following objects in JavaScript contains the collection called “plugins”?</p>
+
+        
+        <ul>
+            <li>Location</li>
+            <li>Window</li>
+            <li>Screen</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Navigator</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">63. What will be output of the following code?</p>
+
+
+
+        <p class="question">function testGenerator() {</p>
+
+        <p class="question">yield “first”;</p>
+
+        <p class="question">document.write(“step1″);</p>
+
+
+
+        <p class="question">yield “second”;</p>
+
+        <p class="question">document.write(“step2″);</p>
+
+
+
+        <p class="question">yield “third”;</p>
+
+        <p class="question">document.write(“step3″);</p>
+
+        <p class="question">}</p>
+
+
+
+        <p class="question">var g = testGenerator();</p>
+
+        <p class="question">document.write(g.next());</p>
+
+        <p class="question">document.write(g.next());</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> firststep1second</strong></li>
+            <li>step1step2</li>
+            <li>step1</li>
+            <li>step1step2step3</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">64. Which of the following methods will copy data to the Clipboard?</p>
+        <ul>
+            <li>execClipboard(‘Copy’)</li>
+            <li>copyCommand(‘Clipboard’)</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> execCommand(‘Copy’)</strong></li>
+            <li>execClipboard(‘Copy’)</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">65. Which of the following code snippets trims whitespace from the beginning and end of the given string
+            str?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> str.replace(/^\s+|\s+$/g, ”);</strong></li>
+            <li>str.replace(/^\s+/,”);</li>
+            <li>str.replace(/\s+$/,”);</li>
+            <li>str.replace(/\s+/g,’ ‘);</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">66. What is the difference between call() and apply()?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> The call() function accepts an argument list of a function, while the apply() function accepts
+                a
+                single array of arguments.</strong></li>
+            <li>The apply() function accepts an argument list of a function, while the call() function accepts a single
+                array of arguments.
+            </li>
+            <li>The call() function accepts an object list of a function, while the apply() function accepts a single
+                array
+                of an object.
+            </li>
+            <li>The call() function accepts an object list of a function, while the apply() function accepts a single
+                array
+                of an object.
+            </li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">67. Which of the following code snippets is more efficient, and why?</p>
+
+
+
+        <p class="question">&lt;script language=”JavaScript”&gt;</p>
+
+        <p class="question">for(i=0;i&lt;document.images.length;i++)</p>
+
+        <p class="question">document.images[i].src=”blank.gif”;</p>
+
+        <p class="question">&lt;/script&gt;</p>
+
+
+
+        <p class="question">&lt;script language=”JavaScript”&gt;</p>
+
+        <p class="question">var theimages = document.images;</p>
+
+        <p class="question">for(i=0;i&lt;theimages.length;i++)</p>
+
+        <p class="question">theimages[i].src=”blank.gif”</p>
+
+        <p class="question">&lt;/script&gt;</p>
+        <ul>
+            <li>Both are equally efficient.</li>
+            <li>The first code is more efficient as it contains less code.</li>
+            <li>The first code is more efficient as it employs object caching.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> The second code is more efficient as it employs object caching.</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">69. Which of the following JavaScript Regular Expression modifiers finds one or more occurrences of a
+            specific
+            character in a string?</p>
+        <ul>
+            <li>?</li>
+            <li>*</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> +</strong></li>
+            <li>#</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">70. Which of the following is not a valid JavaScript operator?</p>
+        <ul>
+            <li>|</li>
+            <li>===</li>
+            <li>%=</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> ^</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">71. Which of the following code snippets returns “[object object]”?</p>
+        
+        <ul>
+            <li>&lt;script&gt; var o = new Object(); o.toSource(); &lt;/script&gt;</li>
+            <li>&lt;script&gt; var o = new Object(); o.valueOf(); &lt;/script&gt;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> &lt;script&gt; var o = new Object(); o.toString(); &lt;/script&gt;</strong></li>
+            <li>&lt;script&gt; var o = new Object(); o.getName(); &lt;/script&gt;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">72. Which of the following can be used to invoke an iframe from a parent page?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> window.frames</strong></li>
+            <li>document.getElementById</li>
+            <li>document.getelementsbyname</li>
+            <li>document.getelementsbyclassname</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">73. Select the following function that shuffles an array?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> function shuffle(array) { var tmp, current, top = array.length; if(top) while(–top) { current =
+                Math.floor(Math.random() * (top + 1)); tmp = array[current]; array[current] = array[top]; array[top] =
+                tmp;
+                } return array; }</strong></li>
+            <li>function shuffle(array) { return array.sort(function(a,b) { return (a-b); }); }</li>
+            <li>function shuffle(array) { var results = new Array(); var sorted_arr = array.sort(); for (var i = 0; i
+                &lt;
+                array.length – 1; i++) { if (sorted_arr[i + 1] == sorted_arr[i]) { results.push(sorted_arr[i]); } }
+                return
+                results; }
+            </li>
+            <li>function shuffle(array) { for (var tmp, cur, top=array.length; top–;){ cur = (Math.random() * (top + 1))
+                &lt;&lt; 0; tmp = array[cur]; array[cur] = array[top]; array[top] = tmp; } return array.sort(); }
+            </li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">74. Which of the following code snippets removes objects from an associative array?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> delete array[“propertyName”];</strong></li>
+            <li>array.propertyName.remove();</li>
+            <li>array.splice(index, 1);</li>
+            <li>array[“propertyName”].remove();</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">75. What is the error in the statement: var charConvert = toCharCode(‘x’);?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> toCharCode() is a non-existent method.</strong></li>
+            <li>Nothing. The code will work fine.</li>
+            <li>toCharCode only accepts numbers.</li>
+            <li>toCharCode takes no arguments.</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">76. What value would JavaScript assign to an uninitialized variable?</p>
+        <ul>
+            <li>NaN</li>
+            <li>null</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> undefined</strong></li>
+            <li>false</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">77. What does the following JavaScript code do?</p>
+
+
+
+        <p class="question">contains(a, obj) {</p>
+
+        <p class="question">for (var i = 0; i &lt; a.length; i++) {</p>
+
+        <p class="question">if (a[i] === obj) {</p>
+
+        <p class="question">return true;</p>
+
+        <p class="question">}</p>
+
+        <p class="question">}</p>
+
+        <p class="question">return false;</p>
+
+        <p class="question">}</p>
+        <ul>
+            <li>It calculates an array’s length.</li>
+            <li>It compares ‘a’ and ‘obj’ in an array.</li>
+            <li>The code will cause an error.</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> It checks if an array contains ‘obj’.</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">78. If an image is placed styled with z-index=-1 and a text paragraph is overlapped with it, which one will
+            be
+            displayed on top?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> The paragraph.</strong></li>
+            <li>The image.</li>
+            <li>It depends on other rules.</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">79. Which of the following code snippets gets an image’s dimensions (height &amp; width) correctly?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> var img = document.getElementById(‘imageid’); var width = img.clientWidth; var height =
+                img.clientHeight;</strong></li>
+            <li>var img = document.getElementById(‘imageid’); var width = img.width; var height = img.height;</li>
+            <li>var img = document.getElementById(‘imageid’); var width = img.getAttribute(‘width’); var height =
+                img.getAttribute(‘height’);
+            </li>
+            <li>var img=document.getElementById(“imageid”); var width=img.offsetWidth; var height=img.offsetHeight;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">80. Which of the following are correct values of variableC, and why?</p>
+
+
+
+        <p class="question">&lt;script&gt;</p>
+
+        <p class="question">variableA = [6,8];</p>
+
+        <p class="question">variableB =[7,9];</p>
+
+        <p class="question">variableC = variableA + variableB;</p>
+
+        <p class="question">&lt;/script&gt;</p>
+        <ul>
+            <li>6, 7, 8 and 9. The + operator is defined for arrays, and it concatenates strings, so it converts the
+                arrays
+                to strings.
+            </li>
+            <li>6, 15 and 9. The + operator is defined for arrays, and it concatenates numbers, so it converts the
+                arrays to
+                numbers.
+            </li>
+            <li>6, 8, 7 and 9. The + operator is defined for arrays, and it concatenates strings, so it converts the
+                arrays
+                to strings.
+            </li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> 6, 87 and 9. The + operator is not defined for arrays, and it concatenates strings, so it
+                converts
+                the arrays to strings.</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">81. The following are the samples for getting a selected value in the from a dropdown list:</p>
+
+
+
+        <p class="question">&lt;select id=”ddlViewBy”&gt;</p>
+
+        <p class="question">&lt;option value=”1″&gt;test1&lt;/option&gt;</p>
+
+        <p class="question">&lt;option value=”2″ selected=”selected”&gt;test2&lt;/option&gt;</p>
+
+        <p class="question">&lt;option value=”3″&gt;test3&lt;/option&gt;</p>
+
+        <p class="question">&lt;/select&gt;</p>
+
+
+
+        <p class="question">Which code block is correct?</p>
+        <ul>
+            <li>var e = document.getElementById(“ddlViewBy”); var strUser = e.options[e.selectedIndex].text;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> var e = document.getElementById(“ddlViewBy”); var strUser =
+                e.options[e.selectedIndex].value;</strong></li>
+            <li>var e = document.getElementByName(“ddlViewBy”); var strUser = e.options[e.selectedIndex].text;</li>
+            <li>var e = document.getElementByName(“ddlViewBy”); var strUser = e.options[e.selectedIndex].value;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">82. var profits=2489.8237</p>
+
+
+
+        <p class="question">Which of the following code(s) produces the following output?</p>
+
+
+
+        <p class="question">output : 2489.824</p>
+        <ul>
+            <li>profits.toFixed(4)</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> profits.toFixed(3)</strong></li>
+            <li>profits.formatDollar(3)</li>
+            <li>profits.nuberFormat(3)</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">83. A form contains two fields named id1 and id2.&nbsp; How can you copy the value of the id2 field to
+            id1?</p>
+        <ul>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> document.forms[0].id1.value=document.forms[0].id2.value</strong></li>
+            <li>document.forms[0].id2.value=document.forms[0].id1.value</li>
+            <li>document.id1.value=document.id2.value</li>
+            <li>document.id2.value=document.id1.value</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">84. Which of the following code snippets will toggle a div element’s background color?</p>
+
+
+
+        <p class="question">&lt;button id=”toggle”&gt;Toggle&lt;/button&gt;</p>
+
+        <p class="question">&lt;div id=”terd”&gt;Change Background Color.&lt;/div&gt;</p>
+        <ul>
+            <li>&lt;script&gt; var button = document.getElementById(‘toggle’); button.click = function() {
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue'; };
+                &lt;/script&gt;</li>
+            <li>&lt;script&gt; var button = document.getElementById(‘toggle’); button.ready = function() {
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue'; };
+                &lt;/script&gt;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> &lt;script&gt; var button = document.getElementById(‘toggle’); button.focus = function() {
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue'; };
+                &lt;/script&gt;</strong></li>
+            <li>&lt;script&gt; var button = document.getElementById(‘toggle’); button.onclick = function() {
+                terd.style.backgroundColor = terd.style.backgroundColor == ‘blue’ ? ‘red’ : ‘blue'; };
+                &lt;/script&gt;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">85. How can the user’s previously navigated page be determined using JavaScript?</p>
+        <ul>
+            <li>It is not possible in JavaScript. This can be done only through server-side scripting.</li>
+            <li>Using the document.referrer property</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> Using the window object</strong></li>
+            <li>None of these</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">86. Which of the following is not a valid method for looping an array?</p>
+        <ul>
+            <li>var a= [1,2]; for (var i = 0; i &lt; a.length; i++) { alert(a[i]); }</li>
+            <li>var a= [1,2]; a.forEach( function(item) { alert(item); })</li>
+            <li>var a= [1,2]; a.map( function(item) { alert(item); })</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> var a= [1,2]; a.loop( function(item) { alert(item); })</strong></li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">87. Which of the following correctly sets a class for an element?</p>
+        <ul>
+            <li>document.getElementById(elementId).className = “Someclass”;</li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> document.getElementById(elementId).setAttribute(“className”, “Someclass”);</strong></li>
+            <li>document.getElementById(elementId).class = “Someclass”;</li>
+            <li>document.getElementById(elementId).style = “Someclass”;</li>
+        </ul>
+    </div>
+    <div class=question-block>
+        <p class="question">88. An HTML form contains 10 checkboxes all named “chkItems”. Which JavaScript function can be used for
+            checking all the checkboxes together?</p>
+        <ul>
+            <li>function CheckAll() { for (z = 0; z &lt; document.forms.chkItems.length; z++) {
+                document.forms.chkItems[z].checked=true } }
+            </li>
+            <li><strong class='answer' style="background-color: #c66201; color: #fff;"> function CheckAll() { for (z = 0; z &lt; document.forms[0].chkItems.length; z++) {
+                document.forms[0].chkItems[z].checked=true } }</strong></li>
+            <li>function CheckAll() { for (z = 0; z &lt; document.forms[0].chkItems.length; z++) {
+                document.forms[0].chkItems.list[z].checked=true } }
+            </li>
+            <li>function CheckAll() { for (z = 0; z &lt; document.forms[0].chkItems.length; z++) {
+                document.forms[0].chkItems.list[z].checked=false } }
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<script src="run.js"></script>
+</body>
+</html>
