@@ -2359,7 +2359,7 @@ var questionsWithoutDuplicates = [
     {
         question: "Which of the following descriptions best describes the code below?scriptvar variable1 = { fastFood: spaghetti, length: 10 };Object",
         answers: [
-            "Object is frozen, a property named price is not added in the variable1 object, a property named length is not deleted from this object. At the end of the code, object variable1″ contains 2 properties."
+            "Object is frozen, a property named price is not added in the variable1 object, a property named length is not deleted from this object. At the end of the code, object variable1 contains 2 properties."
         ]
     },
 
@@ -2371,7 +2371,7 @@ var questionsWithoutDuplicates = [
     },
 
     {
-        question: "An image tag is defined as follows:img id=ERImage width=100″ height=100″ onmouseover=ImageChange() src=Image1",
+        question: "An image tag is defined as follows:img id=ERImage width=100 height=100 onmouseover=ImageChange() src=Image1",
         answers: [
             "document.getElementById(ERImage).src=Image2.jpg"
         ]
@@ -2750,7 +2750,7 @@ var questionsWithoutDuplicates = [
     },
 
     {
-        question: "Which of the following choices will remove a selection option from the code below? button idnewbtn onclick=g();Remove/button select name=selectBox id=selectBox option value=option1″option1/option option value=option2″option2/option option value=option3″option3/option option value=option4″option4/option /select",
+        question: "Which of the following choices will remove a selection option from the code below? button idnewbtn onclick=g();Remove/button select name=selectBox id=selectBox option value=option1option1/option option value=option2option2/option option value=option3option3/option option value=option4option4/option /select",
         answers: [
             "script function g(){ var index = 1; var d = document.getElementById(selectBox); var d_nested = d.childNodes[index]; var throwawayNode = d.removeChild(d_nested); } /script"
         ]
@@ -2873,17 +2873,7 @@ function escapeHtml(text) {
         .replace(/&lt;/g, "")
         .replace(/&gt;/g, "")
         .replace(/&quot;/g, "")
-        .replace(/</g, "")
-        .replace(/>/g, "")
-        .replace(/«/g, "")
-        .replace(/»/g, "")
-        .replace(/"/g, "")
-        .replace(/'/g, "")
-        .replace(/′/g, "")
-        .replace(/‘/g, "")
-        .replace(/’/g, "")
-        .replace(/“/g, "")
-        .replace(/”/g, "");
+        .replace(/[<>«»"'′‘’“”″]/g, "");
 }
 
 function showArray(arr) {
@@ -3043,6 +3033,7 @@ function getMaxDiff(chunks1, chunks2) {
  */
 
 function getQuestions (q) {
+    
     var upworktestanswer2015 = [
         {
             question: "Which of the following is true about setTimeOut()?",
@@ -5464,7 +5455,7 @@ function getQuestions (q) {
         {
             question: "Which of the following descriptions best describes the code below?scriptvar variable1 = { fastFood: spaghetti, length: 10 };Object",
             answers: [
-                "Object is frozen, a property named price is not added in the variable1 object, a property named length is not deleted from this object. At the end of the code, object variable1″ contains 2 properties."
+                "Object is frozen, a property named price is not added in the variable1 object, a property named length is not deleted from this object. At the end of the code, object variable1 contains 2 properties."
             ]
         },
 
@@ -5511,7 +5502,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "An image tag is defined as follows:img id=ERImage width=100″ height=100″ onmouseover=ImageChange() src=Image1",
+            question: "An image tag is defined as follows:img id=ERImage width=100 height=100 onmouseover=ImageChange() src=Image1",
             answers: [
                 "document.getElementById(ERImage).src=Image2.jpg"
             ]
@@ -5637,7 +5628,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "An image tag is defined as follows:img id=ERImage width=100″ height=100″ onmouseover=ImageChange() src=Image1",
+            question: "An image tag is defined as follows:img id=ERImage width=100 height=100 onmouseover=ImageChange() src=Image1",
             answers: [
                 "document.getElementById(ERImage).src=Image2.jpg"
             ]
@@ -5653,7 +5644,7 @@ function getQuestions (q) {
         {
             question: "Which of the following choices will change the source of the image to image2",
             answers: [
-                "img id=imageID src=image1.gif width=50″ height=60″ onmousedown=changeimg(image1.gif) onmouseup=changeimg(image2.gif)"
+                "img id=imageID src=image1.gif width=50 height=60 onmousedown=changeimg(image1.gif) onmouseup=changeimg(image2.gif)"
             ]
         },
 
@@ -5945,7 +5936,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "The following are the samples for getting a selected value in the from a dropdown list:select id=ddlViewByoption value=1″test1/optionoption value=2″ selected=selectedtest2/optionoption value=3″test3/option/selectWhich code block is correct?",
+            question: "The following are the samples for getting a selected value in the from a dropdown list:select id=ddlViewByoption value=1test1/optionoption value=2 selected=selectedtest2/optionoption value=3test3/option/selectWhich code block is correct?",
             answers: [
                 "var e = document.getElementById(ddlViewBy); var strUser = e.options[e.selectedIndex].value;"
             ]
@@ -6122,7 +6113,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "An image tag is defined as follows:img id=ERImage width=100″ height=100″ onmouseover=ImageChange() src=Image1",
+            question: "An image tag is defined as follows:img id=ERImage width=100 height=100 onmouseover=ImageChange() src=Image1",
             answers: [
                 "document.getElementById(ERImage).src=Image2.jpg"
             ]
@@ -6241,7 +6232,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "An image tag is defined as follows:img id=ERImage width=100″ height=100″ onmouseover=ImageChange() src=Image1",
+            question: "An image tag is defined as follows:img id=ERImage width=100 height=100 onmouseover=ImageChange() src=Image1",
             answers: [
                 "document.getElementById(ERImage).src=Image2.jpg"
             ]
@@ -6257,7 +6248,7 @@ function getQuestions (q) {
         {
             question: "Which of the following choices will change the source of the image to image2",
             answers: [
-                "img id=imageID src=image1.gif width=50″ height=60″ onmousedown=changeimg(image1.gif) onmouseup=changeimg(image2.gif)"
+                "img id=imageID src=image1.gif width=50 height=60 onmousedown=changeimg(image1.gif) onmouseup=changeimg(image2.gif)"
             ]
         },
 
@@ -6556,7 +6547,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "The following are the samples for getting a selected value in the from a dropdown list:select id=ddlViewByoption value=1″test1/optionoption value=2″ selected=selectedtest2/optionoption value=3″test3/option/selectWhich code block is correct?",
+            question: "The following are the samples for getting a selected value in the from a dropdown list:select id=ddlViewByoption value=1test1/optionoption value=2 selected=selectedtest2/optionoption value=3test3/option/selectWhich code block is correct?",
             answers: [
                 "var e = document.getElementById(ddlViewBy); var strUser = e.options[e.selectedIndex].value;"
             ]
@@ -7309,7 +7300,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "Consider the following image definition: img id=logo src=companylogo1.gif height=12″ width=12″  Which of the following will change the image to companylogo2.gif when the page loads?",
+            question: "Consider the following image definition: img id=logo src=companylogo1.gif height=12 width=12  Which of the following will change the image to companylogo2.gif when the page loads?",
             answers: [
                 "document.getElementById(logo).src=companylogo2.gif"
             ]
@@ -7337,7 +7328,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "An image tag is defined as follows:img id=ERImage width=100″ height=100″ onmouseover=ImageChange() src=Image1.jpgThe purpose of the ImageChange() function is to change the image source to Image2.jpg. Which of the following should the ImageChange() function look like?",
+            question: "An image tag is defined as follows:img id=ERImage width=100 height=100 onmouseover=ImageChange() src=Image1.jpgThe purpose of the ImageChange() function is to change the image source to Image2.jpg. Which of the following should the ImageChange() function look like?",
             answers: [
                 "document.getElementById(ERImage).src=Image2.jpg"
             ]
@@ -7546,12 +7537,12 @@ function getQuestions (q) {
         {
             question: "Which of the following choices will change the source of the image to image2.gif when a user clicks on the image?",
             answers: [
-                "img id=imageID src=image1.gif width=50″ height=60″ onmousedown=changeimg(image1.gif) onmouseup=changeimg(image2.gif)"
+                "img id=imageID src=image1.gif width=50 height=60 onmousedown=changeimg(image1.gif) onmouseup=changeimg(image2.gif)"
             ]
         },
 
         {
-            question: "Consider the following image definition: img id=logo src=companylogo1.gif height=12″ width=12″  Which of the following will change the image to companylogo2.gif when the page loads?",
+            question: "Consider the following image definition: img id=logo src=companylogo1.gif height=12 width=12  Which of the following will change the image to companylogo2.gif when the page loads?",
             answers: [
                 "document.getElementById(logo).src=companylogo2.gif"
             ]
@@ -7600,7 +7591,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "Which of the following choices will remove a selection option from the code below? button idnewbtn onclick=g();Remove/button select name=selectBox id=selectBox option value=option1″option1/option option value=option2″option2/option option value=option3″option3/option option value=option4″option4/option /select",
+            question: "Which of the following choices will remove a selection option from the code below? button idnewbtn onclick=g();Remove/button select name=selectBox id=selectBox option value=option1option1/option option value=option2option2/option option value=option3option3/option option value=option4option4/option /select",
             answers: [
                 "script function g(){ var index = 1; var d = document.getElementById(selectBox); var d_nested = d.childNodes[index]; var throwawayNode = d.removeChild(d_nested); } /script"
             ]
@@ -7628,7 +7619,7 @@ function getQuestions (q) {
         },
 
         {
-            question: "An image tag is defined as follows: img id=ERImage width=100″ height=100″ onmouseover=ImageChange() src=Image1.jpg The purpose of the ImageChange() function is to change the image source to Image2.jpg. Which of the following should the ImageChange() function look like?",
+            question: "An image tag is defined as follows: img id=ERImage width=100 height=100 onmouseover=ImageChange() src=Image1.jpg The purpose of the ImageChange() function is to change the image source to Image2.jpg. Which of the following should the ImageChange() function look like?",
             answers: [
                 "document.getElementById(ERImage).src=Image2.jpg"
             ]
@@ -7745,7 +7736,8 @@ function getQuestions (q) {
                 "Declare the variable between the script tags, and outside a function to make the variable global"
             ]
         },
-    ]
+    ];
+    */
 
     return q || [].concat(upworktestanswer2015,outsourcingincome,upworktest,jobworktests,upworktestru,upworkcrack);
 }
