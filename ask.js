@@ -7737,7 +7737,6 @@ function getQuestions (q) {
             ]
         },
     ];
-    */
 
     return q || [].concat(upworktestanswer2015,outsourcingincome,upworktest,jobworktests,upworktestru,upworkcrack);
 }
